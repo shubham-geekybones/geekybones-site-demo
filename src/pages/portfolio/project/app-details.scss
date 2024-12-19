@@ -1,0 +1,985 @@
+@import "../../../constants/colors/colors";
+@import "../../../constants/fonts/fonts";
+
+/* dawhoused sec css start here */
+.header-top-dawghoused-sec{
+}
+.header-top-dawghoused-sec h2{
+  text-align: center;
+  padding:150px 0;
+  color: $gb-color-white;
+}
+/* dawhoused sec css end  here */
+/* dawghouse solution css start here */
+.dawghouse-solution-first-col .dawghouse-logo-img{
+  width:70%;
+  height:auto;
+}
+.dawghouse-solution-wrap .dawghouse-solution-second-col{
+  border-left:1px solid #e8e7e7;
+  padding-left:50px;
+}
+.dawghouse-solution-wrap .dawghouse-solution-first-col{
+  height:192px;
+  display: flex;
+  justify-content: flex-end;
+}
+.dawghouse-solution-second-col .domain-wrap-common{
+  box-shadow: 0 3px 3px #ece6e699;
+  padding:20px;
+  width:40%;
+  border:1px solid #efefef ;
+  height: 57%;
+}
+.common-food-app-img-wrap .common-food-app-img{
+  width:60px;
+  height:60px;
+  margin-bottom:15px;
+}
+.dawghouse-solution-second-col .app-name-wrap{
+  margin-left:20px;
+}
+.domain-content-common h5 {
+    font-family: $font-josefin-sans;
+    font-weight: 600;
+    font-size: 20px;
+}
+.domain-content-common p {
+  font-size: 16px;
+}
+/* dawghouse solution css end here */
+
+/* tech stach css start here */
+.tech-stack-sec {
+  background-image: url("../../../assets/images/dots-box-1.png");
+  background-repeat: no-repeat;
+  background-position: 90% 0;
+  background-size: calc(10%);
+}
+
+.tech-stack-sec .slick-slider .common-about-our-services-next-prev-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translate(-3%, -50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  color: $gb-color-white;
+  border-radius: 25px;
+  background-color:  transparent;
+}
+.tech-stack-sec .slick-slider .common-about-our-services-next-prev-btn img {
+  width: 25px;
+}
+.tech-stack-sec .slick-slider .about-our-services-prev-btn {
+  left: -45px;
+}
+.tech-stack-sec .slick-slider .about-our-services-next-btn {
+  right: -45px;
+}
+.tech-stack-sec .slick-slider .slick-list .slick-track .slick-slide {
+  overflow: hidden;
+}
+
+.tech-stack-sec .tech-stack-first-col{
+  background-color: $gb-color-red;
+  color: $gb-color-white;
+  padding:50px;
+  height:100%;
+  border-radius: 10px 0 0 10px;
+}
+.tech-stack-sec .tech-stack-first-col h3, .tech-stack-sec .tech-stack-second-col h3, .download-sec-second-col h3 {
+  font-family: $font-josefin-sans;
+}
+.tech-stack-first-col ul{
+  list-style-type: disc;
+  margin-top:30px;
+}
+.tech-stack-first-col ul li{
+  margin-top:20px;
+}
+.tech-stack-sec .tech-stack-second-col{
+  background-color:#efefef;
+  color: $gb-color-black;
+  padding:50px;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+.tech-stack-second-col ul{
+  list-style-type: disc;
+  margin-top:30px;
+}
+.tech-stack-second-col ul li{
+  margin-top:20px;
+}
+/* tech stack css end here */
+
+/* download sec css start here */
+.download-app-sec {
+  background-image: url("../../../assets/images/header-bg-half.png");
+  background-repeat:no-repeat;
+  background-size: 50% 100%;
+  background-position: 100% 50%;
+}
+.download-sec-second-col ul{
+  list-style-type: disc;
+  margin-top:10px;
+}
+.download-sec-second-col ul li{
+  margin-top:10px;
+}
+.download-sec-first-col .download-app-mobile-img{
+  width:45%;
+  border-radius: 10px;
+  height:auto;
+}
+.download-app-sec .download-sec-first-col{
+  height:100%;
+  display: flex;
+  justify-content: center;
+}
+.download-app-sec .download-sec-second-col{
+  height:100%;
+}
+.download-sec-second-col  p{
+  color:$gb-color-black;
+  margin-top:40px;
+}
+.download-common-btn {
+  font-size:20px;
+  display: inline-block;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 10px;
+  color: $gb-color-white;
+  background:$gb-color-red;
+  background: linear-gradient(to left, $gb-color-red 50%, $gb-color-black 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+  margin-top:60px;
+}
+.download-common-btn:focus{
+  border:none;
+  outline:none;
+}
+.download-common-btn:hover {
+  background-position: left;
+}
+.download-common-btn a{
+  text-decoration: none;
+  color:$gb-color-white;
+}
+/* download sec css end here */
+
+/* result sec css style start  here */
+.result-sec-heading p{
+  color: $gb-color-black;
+}
+//.slider .common-main-dev{
+//  width:100%;
+//  margin:0 10px;
+//  border: solid 1px #dcdbdb;
+//  padding: 15px;
+//}
+.slider .slick-slider .slick-list .slick-track .slick-slide {
+  padding: 0 10px;
+  text-align: center;
+}
+
+
+.gb-mobile-apps-slider.slich-slider-sec .slick-slider .common-graphic-next-prev-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translate(-3%, -50%);
+  border: none;
+  color: $gb-color-white;
+  background-color: transparent;
+}
+.gb-mobile-apps-slider.slich-slider-sec .slick-slider .graphic-prev-btn {
+  left: 25px;
+}
+.gb-mobile-apps-slider.slich-slider-sec .slick-slider .graphic-next-btn {
+  right: 25px;
+}
+.gb-mobile-apps-slider.slich-slider-sec .slick-slider .common-graphic-next-prev-btn img {
+  width: 25px;
+}
+#item-count-1 .slick-slider .slick-list .slick-track .common-main-dev {
+  width: 360px !important;
+  height: 100%;
+}
+#item-count-2 .slick-slider .slick-list .slick-track .common-main-dev {
+  width: 470px !important;
+  height: 100%;
+}
+
+.common-main-dev {
+  height: 450px;
+}
+.common-main-dev .details-slider-common-img{
+  width:100%;
+  height: auto;
+  object-position: top;
+}
+
+.common-main-dev.common-main-dev-mobile {
+  height: auto;
+}
+
+.common-main-dev.common-main-dev-mobile .details-slider-common-img {
+  width: 90%;
+  height: 100%;
+  -o-object-position: top;
+  object-position: top;
+  margin: 0 auto;
+}
+.slider-next-pre-btn .pp2{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color:transparent;
+  position:absolute;
+  left:0;
+  top:36%;
+  border:none;
+  outline:none;
+}
+.slider-next-pre-btn .nn2{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color:transparent;
+  position:absolute;
+  right:0;
+  top:36%;
+  border:none;
+  outline:none;
+}
+.slider-next-pre-btn .nn2:focus , .slider-next-pre-btn .pp2:focus{
+  outline:none;
+  border:none;
+}
+.slich-slider-sec{
+  position:relative;
+  margin-top:40px;
+}
+.slich-slider-sec .slick-slide {
+  display: none;
+  float: left;
+  height: 60%;
+  min-height: 1px;
+}
+.slider-next-pre-btn .common-arrow{
+  width:20px;
+}
+.common-main-dev .slick-slide .slick-active:focus {
+  outline:none;
+}
+/* result sec  css end here */
+
+/* let talk sec css start here */
+.let-talk-about-us-sec {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../assets/images/laptop-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.let-talk-about-us-sec .let-talk-about-wrap{
+  background-color: #00000038;
+  padding: 30px 50px;
+}
+.let-talk-about-us-heading h2{
+  color:$gb-color-white;
+  margin-bottom: 40px;
+}
+.common-form-wraper .form-control-let-talk-sec {
+  display: block;
+  border-radius:10px;
+  border:none;
+  margin-bottom: 35px;
+  height: 45px;
+  width:100%;
+}
+.form-wraper .form-check-sgl{
+  padding:0 36px;
+}
+.common-form-wraper .form-control-let-talk-sec:focus {
+  color: #212529;
+  background-color: $gb-color-white;
+  border-color: $gb-color-red;
+  outline: 0;
+  box-shadow: none;
+}
+.common-form-wraper  .left-takl-lable-common{
+  margin-bottom: 20px;
+  color:$gb-color-white;
+}
+.form-check .lable-check-list{
+  color:$gb-color-white;
+}
+.form-check .form-check-input-common:checked {
+  background-color: $gb-color-red;
+  border-color: $gb-color-red;
+  box-shadow: none;
+}
+.radio-btn-let-talk-sec .form-check-common-lt{
+  margin-left:14px;
+}
+
+.send-btn-wraper .let-from-sec-btn{
+  font-size:20px;
+  display: inline-block;
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 10px;
+  color: $gb-color-white;
+  background:$gb-color-red;
+  background: linear-gradient(to left, $gb-color-red 50%, $gb-color-black 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+  margin-top:24px;
+}
+.send-btn-wraper .let-from-sec-btn:focus{
+  border:none;
+  outline:none;
+}
+.send-btn-wraper .let-from-sec-btn:hover {
+  background-position: left;
+}
+/* let talk sec css end here */
+
+/* frame-sdk sec css start here */
+.frame-sdk-wrap{
+  padding:60px 0;
+  margin-top:50px;
+  // background-image: url('../../../assets/images/black-bg-smok.jpg');
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+.fram-sdk-heading h2{
+  color:$gb-color-white;
+}
+
+.framwork-red-common{
+  background-color:transparent;
+  padding:20px;
+  margin-top:20px;
+  color:$gb-color-white;
+  border-radius: 10px;
+  min-height:107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:1px solid;
+}
+.framwork-red-common p,.framwork-grey-common p{
+  margin-bottom:0 !important;
+}
+
+.fram-sdk-sec{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/images/laptop-bg-2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:$gb-color-white;
+}
+.fram-sdk-common-col h6{
+  font-size: 20px;
+  color:$gb-color-white;
+}
+.fram-sdk-common-col p{
+  font-size: 16px;
+}
+.fram-sdk-sec .fram-sdk-common-col {
+  margin-bottom: 20px;
+}
+.fram-sdk-common-col .yes-icon-common-img{
+  width:20px;
+  margin-right:10px;
+}
+.fram-sdk-common-col p{
+  margin-bottom: 0;
+}
+.fram-sdk-sec .common-btn {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px 27px;
+  text-align: center;
+  font-size: 16px;
+  background:transparent;
+  border:1px solid;
+  min-height:115px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fram-sdk-sec .common-btn.btn-border::after,
+.fram-sdk-sec .common-btn.btn-border::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  transition: .5s;
+}
+.fram-sdk-sec .common-btn.btn-border::after {
+  top: -9px;
+  left: -9px;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.fram-sdk-sec .common-btn.btn-border::before {
+  bottom: -9px;
+  right: -9px;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+.fram-sdk-sec .common-btn.btn-border:hover {
+  color: $gb-color-white;
+}
+.fram-sdk-sec .common-btn.btn-border:hover::after,
+.fram-sdk-sec .common-btn.btn-border:hover::before {
+  width: calc(100% + 17px);
+  height: calc(100% + 17px);
+  border-color: $gb-color-red;
+  border-radius: 10px;
+}
+.fram-sdk-sec .technology-wrapper-btn a,.technology-wrapper-btn a:hover{
+  color:$gb-color-white;
+  text-decoration: none;
+}
+
+.App-details-img-wrapper {
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: 475px;
+  }
+}
+.App-details-desc-wrapper {
+  p {
+    font-size: 17px;
+    color: $gb-color-black;
+    text-align: center;
+  }
+}
+/* frame-sdk sec css end here */
+
+
+
+//himanshu css start here 14-9-2021
+//key feature section css start here
+.app-details-banner-sec{
+  padding:50px 0;
+    .app-banner-left-col{
+      text-align: center;
+      .banner-img{
+        width: 100%;
+        border-radius: 10px;
+        max-width: 500px;
+    }
+      h2{
+        font-size: 28px;
+        color:$gb-color-black;
+        font-family:$font-josefin-sans-md;
+        margin-bottom: 10px;
+        margin-top: 50px;
+      }
+      p{
+        font-size: 16px;
+        color:$gb-color-grey;
+        text-align: center;
+      }
+  }
+}
+
+.key-feature-sec{
+  background-color:$gb-color-white-light;
+  .key-feature-row{
+    .accordion-wrap{
+      h5{
+        margin-bottom: 20px;
+        color:$gb-color-grey;
+        font-size: 25px;
+      }
+    }
+  }
+  .key-feature-heading{
+    margin-bottom:40px;
+    h2{
+      color:$gb-color-black;
+      text-align: center;
+      span{
+        color:$gb-color-red;
+      }
+    }
+    p{
+      color:$gb-color-black;
+      text-align: center;
+      margin:20px 0 0 0;
+      font-size:16px;
+    }
+  }
+  .key-feature-left-side{
+    background-color:$gb-color-white;
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      color: #fff;
+      background-color:$gb-color-red;
+    }
+    .nav-pills .nav-link {
+      border-bottom:1px solid #47474714;
+      border-radius:0;
+      font-size:16px;
+    }
+    .nav-pills .nav-link:nth-child(13) {
+      border-bottom:none;
+    }
+    .tab-wrap{
+      box-shadow: 0 5px 10px #00000017;
+      width:100%;
+    }
+  }
+  .key-feature-right-side{
+    box-shadow: 0 5px 10px #00000015;
+    padding: 20px 10px 20px 20px;
+    border:1px solid #38323212;
+    background-color:$gb-color-white;
+    .accordion-wrap{
+      h6{
+        font-size: 22px;
+        text-align: center;
+      }
+      p{
+        font-size:16px;
+        color:$gb-color-black;
+        text-align: center;
+      }
+      ul{
+        list-style: disc;
+        padding-left: 30px;
+        li{
+          font-size: 16px;
+
+        }
+      }
+    }
+  }
+}
+
+//key feature section css end here
+.technology-slider-wrap {
+  padding:50px 0;
+  background-color:$gb-color-white-light;
+  .slider-wrap{
+    .slider-wrap-common {
+      padding:0 20px;
+      .common-slider-wrap {
+        width:230px;
+        height:170px;
+        background-color:$gb-color-white;
+        padding:30px;
+        border-radius:7px;
+        .technology-common-img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+.technology-slider-wrap .slick-slider .common-graphic-next-prev-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translate(-3%, -50%);
+  border: none;
+  color: $gb-color-white;
+  background-color: transparent;
+}
+.technology-slider-wrap .slick-slider .graphic-prev-btn {
+  left: -15px;
+}
+.technology-slider-wrap .slick-slider .graphic-next-btn {
+  right: -32px;
+}
+.technology-slider-wrap .slick-slider .common-graphic-next-prev-btn img {
+  width: 22px;
+}
+//himanshu css end here 14-9-2021
+
+
+
+/* app details page css end here */
+@media screen and (max-width:1440px){
+  .dawghouse-solution-second-col  .domain-wrap-common {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .nav-link-common {
+    color: $gb-color-white !important;
+    margin: 0 5px;
+  }
+  .logo-img {
+    width: 200px;
+  }
+  .nav-link-common {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:1199px) {
+  .dawghouse-solution-second-col .domain-wrap-common {
+    height: 83%;
+  }
+  .common-main-dev .details-slider-common-img {
+    height: 450px;
+  }
+  #item-count-2 .slick-slider .slick-list .slick-track .common-main-dev {
+    height: auto;
+    width: 100% !important;
+  }
+  #item-count-2 .slick-slider .slick-list .slick-track .common-main-dev .details-slider-common-img {
+    height: 100%;
+  }
+  .dawghouse-solution-wrap .dawghouse-solution-first-col {
+    height: auto;
+  }
+  .nav-link-common {
+    font-size: 14px;
+  }
+  .logo-img {
+    width: 180px;
+  }
+  .technology-slider-wrap .slider-wrap .slider-wrap-common .common-slider-wrap {
+    width: auto;
+    height: 170px;
+  }
+}
+@media screen and (max-width:991px) {
+  .dawghouse-solution-second-col .domain-wrap-common {
+    width: 50%;
+    height:100%;
+  }
+  .common-main-dev .details-slider-common-img {
+    height: auto;
+    object-fit: cover;
+  }
+  .download-sec-first-col .download-app-mobile-img {
+    width: 90%!important;
+    height:auto;
+  }
+  .download-sec-second-col ul li {
+    margin-top: 5px;
+  }
+  .dawghouse-solution-first-col .dawghouse-logo-img {
+    width: 100%;
+    height: auto;
+  }
+  .fram-sdk-common-col h6 {
+    font-size: 17px;
+  }
+  .fram-sdk-sec .common-btn {
+    padding: 12px 20px;
+  }
+  .fram-sdk-common-col p {
+    font-size: 14px;
+  }
+  .let-talk-about-us-sec .let-talk-about-wrap {
+    background-color: #00000038;
+    padding: 20px 25px;
+  }
+  .send-btn-wraper .let-from-sec-btn {
+    padding: 10px 20px;
+  }
+  .common-form-wraper .form-control-let-talk-sec {
+    margin-bottom: 30px;
+    height: 35px;
+  }
+  .form-wraper .form-check-sgl {
+    padding: 15px 40px;
+  }
+  .dawghouse-solution-second-col .domain-wrap-common .domain-content-common h5 {
+    font-size: 15px;
+  }
+  .dawghouse-solution-second-col .domain-wrap-common .domain-content-common p {
+    font-size: 13px;
+  }
+
+  //himanshu css start here 15 sep 2021
+  .key-feature-sec .key-feature-row {
+    padding: 0;
+  }
+  //himanshu css end here 15 sep 2021
+  .common-main-dev {
+    height: 235px;
+  }
+}
+@media screen and (max-width:767px) {
+  .header-top-dawghoused-sec h2 {
+    padding: 65px 0;
+  }
+  .tech-stack-sec, .download-app-sec {
+    background-image:none;
+  }
+  .domain-content-common h5{
+    font-size: 16px;
+  }
+  .dawghouse-solution-wrap .dawghouse-solution-first-col {
+    height: auto;
+  }
+  .domain-content-common p{
+    font-size:14px;
+  }
+  .dawghouse-solution-wrap .dawghouse-solution-second-col {
+    padding-left: 10px;
+  }
+  .download-sec-first-col .download-app-mobile-img {
+    width: 55%!important;
+  }
+  .download-app-sec .download-sec-second-col {
+    height: 100%;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .download-common-btn {
+    padding: 8px 20px;
+    margin-top: 20px;
+  }
+  .download-sec-second-col ul li {
+    font-size: 13px;
+  }
+  .download-sec-second-col h3{
+    font-size: 20px;
+  }
+  .common-form-wraper  .left-takl-lable-common {
+    margin-bottom: 5px;
+    color: $gb-color-white;
+  }
+  .form-wraper .form-check-sgl {
+    padding: 0 40px;
+  }
+  .download-sec-second-col ul{
+    list-style-type:none;
+  }
+  .fram-sdk-sec .common-btn {
+    padding: 10px 10px;
+  }
+  .tech-stack-sec  .tech-stack-first-col {
+    padding: 25px;
+    border-radius: 10px;
+  }
+  .tech-stack-sec .tech-stack-second-col {
+    padding: 25px;
+    margin-top:20px;
+    border-radius: 10px;
+    height: auto;
+  }
+  .tech-stack-first-col ul li,.tech-stack-second-col ul li {
+    margin-top: 10px;
+  }
+  .tech-stack-first-col ul {
+    margin-top: 20px;
+  }
+  .common-form-wraper .form-control-let-talk-sec {
+    font-size: 14px;
+    margin-bottom: 30px;
+    width:100%;
+  }
+  .form-check .lable-check-list{
+    font-size: 14px;
+  }
+  .domain-wrap-common p{
+    font-size: 14px;
+  }
+  .header-top-dawghoused-sec {
+    margin-top: 0;
+  }
+  .slider .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0;
+  }
+  .common-main-dev .details-slider-common-img {
+    height: auto;
+  }
+  .gb-mobile-apps-slider .slider .common-main-dev {
+    border: none;
+  }
+
+  //himanshu css start here
+  .key-feature-sec .key-feature-row {
+    padding: 0;
+  }
+  .key-feature-sec .key-feature-right-side {
+    margin-top: 0;
+  }
+    //himanshu css end here
+  .app-details-banner-sec {
+    padding: 30px 0 10px;
+    .app-banner-left-col {
+      h2 {
+        font-size: 20px;
+        margin-top: 35px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .technology-slider-wrap {
+    .slider-wrap {
+      .slider-wrap-common {
+          padding: 0 5px;
+        .common-slider-wrap {
+          height: 105px;
+          padding: 14px;
+        }
+      }
+    }
+    .slick-slider {
+      .graphic-next-btn {
+        right: -10px;
+      }
+      .graphic-prev-btn {
+        left: -6px;
+      }
+      .common-graphic-next-prev-btn {
+        img {
+          width: 15px;
+        }
+      }
+    }
+  }
+  .gb-mobile-apps-slider.slich-slider-sec {
+    .slick-slider {
+      .common-graphic-next-prev-btn {
+        img {
+          width: 18px;
+        }
+      }
+      .graphic-next-btn {
+        right: 0;
+      }
+      .graphic-prev-btn {
+        left: 0;
+      }
+    }
+  }
+  .common-main-dev {
+    height: auto;
+  }
+  .key-feature-sec {
+    .key-feature-row {
+      .accordion-wrap {
+        h5 {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:576px) {
+  .dawghouse-solution-second-col .domain-wrap-common {
+    min-height: inherit;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .dawghouse-solution-second-col .domain-wrap-common .domain-content-common p {
+    margin-bottom: 0;
+  }
+  .dawghouse-solution-wrap .dawghouse-solution-first-col {
+    height: auto;
+  }
+  .dawghouse-solution-wrap .dawghouse-solution-second-col {
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  .common-food-app-img-wrap .common-food-app-img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .dawghouse-solution-sec .dawghouse-solution-first-col {
+    display: flex;
+    justify-content: center;
+  }
+  .dawghouse-solution-first-col .dawghouse-logo-img {
+    width: 150px;
+    height:auto;
+    max-width: 100%;
+  }
+  .dawghouse-solution-sec .dawghouse-solution-second-col {
+    border-left:none;
+    padding-left: 0;
+    height: auto;
+    margin-top: 20px;
+  }
+  .common-main-dev .details-slider-common-img {
+    height:auto;
+    object-fit: contain;
+  }
+  .download-sec-first-col .download-app-mobile-img {
+    width: 80%!important;
+    height: auto;
+  }
+  .common-form-wraper .form-control-let-talk-sec {
+    margin-bottom: 30px;
+  }
+  .let-talk-about-us-sec .form-wraper {
+    padding: 10px 15px 20px 15px;
+  }
+  .common-heading.tech-stack h2 {
+    margin-top: 0;
+  }
+  .tech-stack-sec .tech-stack-first-col, .tech-stack-sec .tech-stack-second-col {
+    padding: 15px 10px 15px 30px;
+    border-radius: 5px;
+  }
+  .tech-stack-first-col ul,.tech-stack-second-col ul {
+    margin-top: 15px;
+  }
+  .tech-stack-first-col h3,.tech-stack-second-col h3{
+    font-size:16px;
+  }
+  .slich-slider-sec {
+    margin-top: 20px;
+  }
+  .slider .common-main-dev {
+    padding: 0;
+  }
+  //himanshu css start here
+  .key-feature-sec .key-feature-row {
+    padding: 0;
+  }
+  .key-feature-sec .key-feature-left-side .nav-pills .nav-link {
+    font-size: 14px;
+  }
+  .key-feature-sec .key-feature-heading {
+    margin-bottom: 25px;
+  }
+  .key-feature-sec .key-feature-right-side .accordion-wrap p ,.key-feature-sec .key-feature-heading p{
+    font-size: 14px;
+    text-align: justify;
+   }
+  .key-feature-sec .key-feature-heading p {
+    margin: 10px 0 0 0;
+   }
+  .key-feature-sec .key-feature-heading h2 {
+    font-size: 22px;
+  }
+  .key-feature-sec .key-feature-right-side .accordion-wrap h6 {
+    font-size: 18px;
+   }
+  .key-feature-sec .key-feature-right-side .accordion-wrap ul li {
+    font-size: 14px;
+  }
+    //himanshu css end here
+}
+

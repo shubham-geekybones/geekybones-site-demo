@@ -1,0 +1,2071 @@
+@import "./src/constants/colors/colors";
+@import "./src/constants/fonts/fonts";
+
+.get-your-deram-btn {
+  height: 60px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 4px;
+  color: $gb-color-white;
+  position: relative;
+  z-index: 1;
+  margin-top:30px;
+  background-color:  $gb-color-red;
+}
+.get-your-deram-btn:hover {
+  color:$gb-color-white;
+}
+.get-your-deram-btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color:  $gb-color-black;
+  color:$gb-color-white !important;
+  content: "";
+  border-radius: 5px;
+}
+.get-your-deram-btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.banner-btn {
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 4px;
+  color: $gb-color-white;
+  position: relative;
+  z-index: 1;
+  margin-top:30px;
+  background-color:  $gb-color-red;
+}
+.banner-btn:hover {
+  color:$gb-color-white;
+}
+.banner-btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color:  $gb-color-black;
+  color:$gb-color-white !important;
+  content: "";
+  border-radius: 4px;
+}
+.banner-btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.common-heading-underline h2,.common-heading-underline-2 h2,.common-heading-underline-3 h2{
+  position: relative;
+}
+.common-heading-underline-2 h2::before {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color:  $gb-color-red;
+  position: absolute;
+  top:60px;
+  left:6px;
+}
+.common-heading-underline-3 h2::before {
+  top: 60px !important;
+  left:6px;
+}
+.blue-red-heading h2{
+  font-size: 40px;
+  text-align:center;
+  color: $gb-color-black;
+}
+.blue-red-heading h2 span{
+  color: $gb-color-red;
+}
+
+.white-red-heading h2{
+  font-size: 40px;
+  text-align:center;
+  color:$gb-color-white;
+}
+.white-red-heading h2 span{
+  color: $gb-color-red;
+}
+/* common css end here */
+/* we-are-geeky-bones-sec css start here */
+.we-are-geeky-bones-sec{
+  background-color: $gb-color-white-light;
+  position: relative;
+}
+.we-are-geeky-bones-sec .first-col-we-are-geeky{
+  width:90%;
+  display: flex;
+  flex-direction: column;
+}
+.technology-1-img {
+  width: 39%;
+  margin-top: 301px;
+  margin-left: -8px;
+}
+.first-col-we-are-geeky .technology-2-img {
+  width: 62%;
+  margin-top:-412px;
+
+}
+.technology-3-img {
+  width: 65%;
+  margin-top: -92px;
+  margin-left: 200px;
+}
+.we-are-geeky-bones-sec .we-geeky-row{
+  margin-top:70px;
+}
+.wrapper h2{
+  font-size:40px;
+  color: $gb-color-black;
+}
+.div-word-wrap .single-heading{
+  margin-left: 10px;
+  font-size:40px;
+}
+.div-word-wrap .wrapper{
+  box-sizing: content-box;
+  height:50px;
+  padding: 0 50px 30px 50px;
+  display: flex;
+}
+.wrapper .words{
+  overflow: hidden;
+}
+.words span{
+  display: block;
+  height:inherit;
+  text-align: center;
+  padding:10px;
+  margin-left:10px;
+  animation: spin-word 9s infinite;
+  background-color:  $gb-color-red;
+  color:$gb-color-white;
+  font-size: 25px;
+  margin-bottom: -1px;
+}
+@keyframes spin-word{
+  10%{
+    transform:translateY(-112%)
+  }
+  25%{
+    transform:translateY(-100%)
+  }
+  35%{
+    transform:translateY(-212%)
+  }
+
+  50%{
+    transform:translateY(-200%)
+  }
+
+  60%{
+    transform:translateY(-312%)
+  }
+
+  75%{
+    transform:translateY(-300%)
+  }
+
+  85%{
+    transform:translateY(-412%)
+  }
+
+  100%{
+    transform:translateY(-400%)
+  }
+
+}
+.we-are-geeky-bones-sec  .div-word-wrap{
+  display: flex;
+  justify-content: center;
+}
+.second-col-we-are-geeky h3{
+  font-size: 25px;
+  color: $gb-color-black;
+  line-height: 40px;
+}
+.second-col-we-are-geeky h3 span{
+  color: $gb-color-red;
+}
+.second-col-we-are-geeky .tabs-left-div .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color:  $gb-color-grey;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  border-bottom:2px solid  $gb-color-red;
+  padding: .5rem 1rem;
+  margin: 0;
+}
+.second-col-we-are-geeky .tabs-left-div .nav-pills .nav-link{
+  border-radius:0;
+  border:none;
+  color: $gb-color-grey;
+  background-color: transparent;
+  padding: .5rem 1rem;
+}
+.second-col-we-are-geeky .tab-wraper {
+  margin-top: 20px;
+}
+.tab-pane p{
+  color: $gb-color-grey;
+  font-size: 16px;
+  text-align: justify;
+}
+.second-col-we-are-geeky p{
+  font-size: 16px;
+  color: $gb-color-grey;
+  margin-top:20px;
+}
+.heading-desc {
+  font-size: 16px;
+  color:  $gb-color-grey;
+  padding: 0 15%;
+  text-align: center;
+}
+.media-query-heading h2{
+  font-size: 22px;
+  color: $gb-color-black;
+  display: none;
+  text-align: center;
+}
+.media-query-heading h2 span{
+  color: $gb-color-red;
+}
+/* we-are-geeky-bones-sec css end here */
+
+/* our-service-old-sec css start here */
+.our-service-sec{
+  margin-top: 20px;
+  position: relative;
+}
+.our-service-sec  .our-service-first-col {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../src/assets/images/service-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0 170px 320px;
+  height: 100%;
+}
+.our-service-sec .our-service-second-col{
+  background-color: transparent;
+  padding:240px 0;
+}
+
+.our-service-first-col p {
+  color: $gb-color-white;
+  font-size: 16px;
+  padding-right: 35%;
+  text-align: justify;
+  margin-top: 35px;
+}
+.our-service-first-col h2{
+  text-align: start;
+}
+
+.common-speaciality-col{
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 5px 10px #00000099;
+  padding: 20px;
+  background-color: $gb-color-white;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.common-speaciality-col .fa{
+  font-size: 30px;
+  color: $gb-color-red;
+  margin-bottom: 20px;
+}
+.common-speaciality-col h5{
+  color: $gb-color-black;
+  font-size: 21px;
+  margin-bottom: 20px;
+  font-family: $font-josefin-sans;
+}
+.common-speaciality-col p{
+  color: $gb-color-grey;
+  font-size: 16px;
+}
+.slider-2 .slider-common{
+  width:100%;
+  padding:20px;
+}
+
+.our-service-sec .slich-pos{
+  position:absolute;
+  right: 0;
+  width: 60%;
+  top:45px;
+  background-color: transparent;
+  padding: 0;
+  display: block;
+}
+.slich-pos .back-btn-service{
+  width:50px;
+  height:50px;
+  background-color:$gb-color-white-light;
+  position:absolute;
+  left:-415px;
+  top:280px;
+  border-radius: 4px;
+  border:none;
+  outline:none;
+}
+.slich-pos .next-btn-service{
+  width:50px;
+  height:50px;
+  border-radius:4px;
+  background-color:$gb-color-white-light;
+  position:absolute;
+  top:280px;
+  left:-355px;
+  border:none;
+  outline:none;
+}
+.slich-pos .next-btn-service:focus{
+  outline:none;
+  border:none;
+}
+.slich-pos .back-btn-service:focus{
+  outline:none;
+  border:none;
+}
+
+.our-service-sec .slick-slide {
+  display: none;
+  float: left;
+  height:45% !important;
+  min-height: 1px;
+  border:none;
+  outline:none;
+}
+.slich-pos .common-arrow-img{
+  width:20px;
+}
+
+.about-our-services-slider-wrap .slick-slider .common-about-our-services-next-prev-btn {
+  position: absolute;
+  top: 52%;
+  z-index: 1;
+  transform: translate(-3%, -50%);
+  background-color: transparent;
+  color: $gb-color-white;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  line-height: 100%;
+  outline: none;
+  border: none;
+}
+.about-our-services-slider-wrap .slick-slider .common-about-our-services-next-prev-btn img {
+  width: 26px;
+}
+.about-our-services-slider-wrap .slick-slider .about-our-services-prev-btn {
+  left: 3%;
+}
+.about-our-services-slider-wrap .slick-slider .about-our-services-next-btn {
+  right: 3%;
+}
+
+.about-our-services-slider-wrap-mob .slick-slider .common-about-our-services-next-prev-btn {
+  top: 55%;
+}
+.about-our-services-slider-wrap-mob .slick-slider .common-about-our-services-next-prev-btn img {
+  width: 18px;
+}
+.about-our-services-slider-wrap-mob .slick-slider .about-our-services-prev-btn {
+  left: -20px;
+}
+.about-our-services-slider-wrap-mob .slick-slider .about-our-services-next-btn {
+  right: -20px;
+}
+
+/* our service-old media query slider css start here */
+
+.common-speaciality-col-2{
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 5px 10px #00000099;
+  padding: 20px;
+  background-color: $gb-color-white;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-speaciality-col-2 .fa{
+  font-size: 30px;
+  color: $gb-color-red;
+  margin-bottom: 20px;
+}
+.common-speaciality-col-2 h5{
+  color: $gb-color-black;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.common-speaciality-col-2 p{
+  color: $gb-color-grey;
+  font-size: 16px;
+}
+.slider-3 .slider-common{
+  width:100%;
+  padding:20px;
+}
+
+.our-service-second-col .slich-pos-2{
+  position:relative;
+  display: none;
+}
+.slich-pos-2 .back-btn-service-2{
+  width:50px;
+  height:50px;
+  background-color:transparent;
+  position:absolute;
+  left:0;
+  top:280px;
+  border-radius: 5px;
+  border:none;
+  outline:none;
+}
+.slich-pos-2 .next-btn-service-2{
+  width:50px;
+  height:50px;
+  border-radius:5px;
+  background-color:transparent;
+  position:absolute;
+  top:280px;
+  right:0;
+  border:none;
+  outline:none;
+}
+.slich-pos-2 .next-btn-service-2:focus{
+  outline:none;
+  border:none;
+}
+.slich-pos-2 .back-btn-service-2:focus{
+  outline:none;
+  border:none;
+}
+
+.our-service-second-col .slick-slide {
+  display: none;
+  float: left;
+  height:100% !important;
+  min-height: 1px;
+  border:none;
+  outline:none;
+}
+.slich-pos-2 .common-arrow-img{
+  width:20px;
+}
+/* our service-old media query slider end here */
+
+.out-team-arrow-img{
+  width:20px;
+}
+
+/* our-service-old-sec css end here */
+
+/* our-smart-approach css start here */
+.our-smart-approach{
+  background-color:$gb-color-white-light;
+}
+.our-smart-approach .bg-map-wrap{
+  //background-image: url("../../../src/assets/images/world-map.png");
+  background-repeat: no-repeat;
+  background-position: 45% 180%;
+  position: relative;
+}
+.our-smart-second-col .common-col-our-smart-approch{
+  background-color:$gb-color-white;
+  padding:25px;
+  margin-top:30px;
+  box-shadow: 0 5px 10px #00000033;
+  display: flex;
+}
+.our-smart-first-col h2{
+  margin-top:50px;
+  text-align: start !important;
+}
+.our-smart-first-col p{
+  color: $gb-color-grey;
+  font-size:16px;
+  text-align: justify;
+  margin-top:45px;
+}
+.icon-wrap .fa{
+  font-size:45px;
+  color: $gb-color-red;
+  margin-right: 20px;
+}
+.content-wrap h5{
+  color: $gb-color-black;
+  font-size: 22px;
+  font-family: $font-josefin-sans;
+}
+.content-wrap p{
+  color: $gb-color-grey;
+  font-size:16px;
+  margin-bottom: 0;
+}
+.our-smart-second-col .common-col-our-smart-approch:hover{
+  background-color: $gb-color-red;
+}
+.common-col-our-smart-approch:hover .fa,.common-col-our-smart-approch:hover h5,.common-col-our-smart-approch:hover p{
+  color:$gb-color-white;
+}
+.why-choose-us-sec.about-choose-us {
+  background-color: #ffffff;
+  padding-bottom: 60px;
+}
+/* our-smart-approach css end here */
+
+/* our team section css start here */
+.our-team-sec{
+  position: relative;
+}
+
+.our-team-sec .our-team-row{
+  margin-top:90px;
+}
+.our-team-slider-wrap .our-team-common-col{
+  width:100%;
+}
+.our-team-common-col h5{
+  color: $gb-color-black;
+  font-size:20px;
+  margin-top:10px;
+  font-family: $font-josefin-sans;
+}
+.our-team-common-col h6{
+  color: $gb-color-grey;
+  font-size:16px;
+  font-family: $font-josefin-sans;
+}
+.our-team-common-col .common-img{
+  width: 100%;
+  min-width: 100%;
+}
+.our-team-slider .pp2{
+  width:40px;
+  height:40px;
+  border-radius:5px;
+  background-color:$gb-color-white-light;
+  position:absolute;
+  left:-32px;
+  top:100px;
+  border:none;
+  outline:none;
+}
+.our-team-slider .nn2{
+  width:40px;
+  height:40px;
+  border-radius:5px;
+  background-color:$gb-color-white-light;
+  position:absolute;
+  right:0;
+  top:100px;
+  border:none;
+  outline:none;
+}
+.our-team-slider .nn2:focus{
+  outline:none;
+  border:none;
+}
+.our-team-slider .pp2:focus{
+  outline:none;
+  border:none;
+}
+.our-team-slider .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.our-team-slider{
+  position:relative;
+}
+.our-team-first-col h3{
+  font-size: 30px;
+  color: $gb-color-black;
+  margin-bottom: 30px;
+}
+.our-team-first-col h3 span{
+  color: $gb-color-red;
+}
+.our-team-first-col p{
+  color: $gb-color-grey;
+  font-size: 16px;
+  margin-top:30px;
+  text-align: justify;
+}
+
+.our-team-slider .slick-slider .common-about-our-services-next-prev-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translate(0, -50%);
+  background-color: $gb-color-white-light;
+  color: $gb-color-white;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  line-height: 100%;
+  outline: none;
+  border: none;
+}
+.our-team-slider .slick-slider .common-about-our-services-next-prev-btn img {
+  width: 18px;
+}
+.our-team-slider .slick-slider .about-our-services-prev-btn {
+  left: -32px;
+}
+.our-team-slider .slick-slider .about-our-services-next-btn {
+  right: -32px;
+}
+.our-team-slider .slick-slider .slick-list .slick-track .slick-slide {
+  padding: 0 10px;
+}
+
+/* our team sction css end here */
+
+/* counter-sec css start here */
+.counter-sec{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../src/assets/images/service-bg.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.counter-heading p{
+  color:$gb-color-white;
+  font-size: 16px;
+  text-align: center;
+  margin-top:50px;
+}
+.counter-sec .common-couter-col {
+  margin-top:50px;
+  text-align: center;
+}
+.common-couter-col h3{
+  color:$gb-color-white;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: $font-josefin-sans;
+}
+.common-couter-col h3 .fa {
+  color: $gb-color-red;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 0;
+  margin-bottom: 0;
+  position: relative;
+  top: -3px;
+}
+.common-couter-col h5{
+  color:$gb-color-white;
+  font-size: 22px;
+  font-family: $font-josefin-sans;
+}
+.common-couter-col .fa{
+  color:$gb-color-white;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+/* counter-sec css end here */
+
+/* histroy-sec css start here */
+.histroy-sec{
+  position: relative;
+}
+.tabs-div .style2:before {
+  position: absolute;
+  content: "";
+  left: 173px;
+  top: 220px;
+  width: 67%;
+  z-index: -1;
+  border-bottom: 1px dashed #d6d6d6;
+}
+.vertical-tab .style1 {
+  position: relative;
+  border-left: 1px dashed #d6d6d6;
+  padding: 35px 0;
+  top: -73px;
+  left:-42px;
+}
+.style1 .common-link:after {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  border: 3px solid #e1e1e1;
+  background: $gb-color-white;
+  border-radius: 50%;
+  left: -7px;
+  top: 52px;
+}
+.style1 .common-link.active:after {
+  border: 3px solid  $gb-color-red;
+}
+.vertical .nav-item{
+  position: relative;
+}
+.vertical-tab .style1:after {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  border: 3px solid #e1e1e1;
+  background: #e1e1e1;
+  border-radius: 50%;
+  left: -7px;
+  top: -6px;
+}
+.vertical-tab .style1:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  border: 3px solid #e1e1e1;
+  background: #e1e1e1;
+  border-radius: 50%;
+  left: -7px;
+  bottom: -8px;
+}
+.vertical-tab .vertical{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.tab-wraper-2 .vertical-tab{
+  position: absolute;
+  top: 293px;
+  left: 215px;
+}
+.vertical li .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color:  $gb-color-red !important;
+  background-color: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color:  $gb-color-red;
+}
+.vertical li .nav-link {
+  background: transparent !important;
+  border:none;
+  outline:none;
+  color: $gb-color-grey;
+  margin-left:25px;
+  margin-top: 39px;
+}
+.histroy-sec .tab-wraper-2{
+  margin-top:100px;
+}
+.our-history-wrap{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px;
+  border-radius: 20px;
+}
+.our-history-wrap .our-history{
+  border-radius: 20px;
+  z-index: 999;
+  background-image: url('../../assets/images/ourhistory.png');
+  height: auto;
+  padding: 25px;
+  border: 4px solid #FFB8B2;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: contain;
+    background-position: center;
+}
+.our-history-wrap .our-history p{
+  color: #555555;
+  font-size: 1rem;
+}
+.tabs-div .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: $gb-color-white;
+  background-color:  $gb-color-red;
+  border: solid 2px  $gb-color-red;
+}
+.tabs-div .nav-link {
+  margin: 0 50px;
+  width: 130px;
+  background-color: $gb-color-white;
+  border:2px solid #f4f4f4;
+  color: $gb-color-grey;
+}
+.tabs-div .nav-link:focus{
+  border:2px solid  $gb-color-red;
+  outline:none;
+}
+.second-col h4 {
+  font-size: 25px;
+  color: $gb-color-black;
+  font-family: $font-josefin-sans;
+}
+.second-col h6{
+  font-size:18px;
+  color: $gb-color-red;
+  margin-top:20px;
+  font-family: $font-josefin-sans;
+}
+.second-col p{
+  color: $gb-color-grey;
+  font-size: 16px;
+  margin-top:30px;
+}
+.tab-content .tab-content-wrap{
+  margin-top:50px;
+}
+.tab-wraper-2 .second-col {
+  padding: 0;
+}
+.arrow-wrap {
+  margin-top: 40px;
+}
+.arrow-wrap .tab-arrow {
+  width: 25px;
+  margin-right: 15px;
+}
+.first-col .tabs-his-img{
+  width:100%;
+}
+.histroy-sec-title-wrapper {
+  p {
+    font-size: 15px;
+    margin-top: 18px;
+    text-align: center;
+  }
+}
+/* histroy-sec css end here */
+
+//history list css start here
+.history-inner {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.history-inner .common-top-bottom-round {
+  margin-left: 2px;
+  object-fit: cover;
+}
+.history-inner .left-side {
+  width: 100%;
+  float: left;
+}
+.history-inner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.history-inner .left-side ul li {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  //border-right: 2px solid #c8c8c8;
+  padding: 0 78px 15px 0;
+  //padding: 0;
+  text-align: right;
+  position: relative;
+  margin-left: 0;
+}
+.history-inner .left-side ul li:after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #c8c8c8;
+}
+.history-inner h3 {
+  font-size: 21px;
+  color: $gb-color-red;
+}
+.history-inner h4 {
+  font-size: 25px;
+  color: $gb-color-black-dark;
+  padding: 2px 0 10px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.history-inner p {
+  padding: 0;
+  font-size: 17px;
+  line-height: 22px;
+  color: $gb-color-black;
+}
+.history-inner .right-side {
+  width: 100%;
+  float: left;
+}
+.history-inner .right-side ul li {
+  width: 50%;
+  //border-left: 2px solid #c8c8c8;
+  padding: 0 0 15px 78px;
+  //padding: 0;
+  text-align: left;
+  position: relative;
+  margin-left:50%;
+  display: flex;
+  flex-direction: column;
+}
+.history-inner .right-side ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #c8c8c8;
+}
+.common-top-cirle-left, .common-top-cirle-right {
+  width: 55px;
+  position: absolute;
+  top: 4px;
+  z-index: 9;
+}
+.common-top-cirle-left {
+  right: -8px;
+}
+.common-top-cirle-right {
+  left: -8px;
+}
+//.history-inner .left-side ul li:before {
+//  content: "";
+//  display: inline-block;
+//  background: url(../../../src/assets/images/ah-doote-left.jpg) no-repeat;
+//  width: 62px;
+//  height: 17px;
+//  position: absolute;
+//  right: -9px;
+//  margin: 3px 0 0;
+//  background-size: contain;
+//}
+//.history-inner .right-side ul li:before {
+//  content: "";
+//  display: inline-block;
+//  background: url(../../../src/assets/images/ah-doote-right.jpg) no-repeat;
+//  width: 62px;
+//  height: 17px;
+//  position: absolute;
+//  left: -9px;
+//  margin: 3px 0 0;
+//  background-size: contain;
+//}
+//history list css end here
+
+
+//about team css start here
+.about-our-team-wrap {
+  height: 550px;
+  background-size: cover;
+  background-position: 100% 13%;
+  position: relative;
+  .about-our-team-inner-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #00000033;
+    padding: 85px;
+    h3 {
+      font-size: 50px;
+      color: $gb-color-white;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    p {
+      font-size: 15px;
+      color: $gb-color-white;
+    }
+  }
+}
+//about team css end here
+
+//our mission css start here
+
+.our-mission-wrapper {
+  .common-img-wrapper {
+    margin: 10px 25px 10px 40px;
+  }
+  .about-common-description {
+    padding-right: 2px;
+    .gb-animate-sm-btn-red {
+      margin-top: 10px;
+    }
+    .gb-animate-sm-btn-red:hover {
+      color: $gb-color-white;
+      background-color: $gb-color-black-dark;
+    }
+  }
+  .about-common-description h2 span{
+    color: $gb-color-red;
+  }
+}
+.life-at-geekybones-wrapper.common-about-img-text-wrapper {
+  .slick-slider {
+    width: 95%;
+    .common-img-wrapper {
+      padding-left: 0;
+      text-align: right;
+      height: 550px;
+      img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+      }
+    }
+  }
+  .about-common-description {
+    padding-left: 80px;
+    .gb-animate-sm-btn-red {
+      margin-top: 10px;
+    }
+    .gb-animate-sm-btn-red:hover {
+      color: $gb-color-white;
+      background-color: $gb-color-black-dark;
+    }
+  }
+}
+
+.life-at-geekybones-wrapper.common-about-img-text-wrapper {
+  .slick-slider {
+    .common-life-geeky-next-prev-btn {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+      transform: translate(-3%, -50%);
+      background-color: #5555553d;
+      border-radius: 25px;
+      width: 35px;
+      height: 35px;
+      border: none;
+      color: $gb-color-white;
+      img {
+        width: 17px;
+      }
+    }
+    .life-geeky-prev-btn {
+      left: 20px;
+    }
+    .life-geeky-next-btn {
+      right: 20px;
+    }
+  }
+}
+
+
+.common-about-img-text-wrapper {
+  .common-img-wrapper {
+    img {
+      max-width: 100%;
+      width: initial;
+      height: initial;
+      object-fit: cover;
+    }
+  }
+  .about-common-description {
+    h2 {
+      font-size: 35px;
+      color: $gb-color-black-dark;
+      margin-bottom: 25px;
+      line-height: 125%;
+      span {
+        color: $gb-color-red;
+      }
+    }
+    p {
+      color: $gb-color-grey;
+      font-size: 18px;
+      line-height: 135%;
+      margin-bottom: 10px;
+    }
+    a {
+
+    }
+  }
+}
+
+//our mission css end here
+
+//meet out leader css start here
+.about-common-head-title-wrapper {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  h2 {
+    font-size: 35px;
+    color: $gb-color-black-dark;
+    margin-bottom: 15px;
+    line-height: 100%;
+  }
+  span{
+    color: $gb-color-red;
+  }
+  p {
+    color: $gb-color-grey;
+    font-size: 18px;
+    line-height: 135%;
+    margin-bottom: 70px;
+  }
+}
+.meet-our-leaders-wrapper {
+  background-image: url('../../assets/images/Group 50171.png');
+  .common-leader-box-wrapper {
+    background-color: rgb(247 243 243 / 65%);
+    border-radius: 50px;
+    text-align: center;
+    width: 95%;
+    padding: 85px 40px 0px;
+    margin-top: 2px;
+    .leader-pic {
+      border-radius: 20px;
+      height: 135px;
+      width: 135px;
+      background-size: cover;
+      background-position: 100%;
+      margin: -60px auto 0;
+    }
+    .name {
+      color: $gb-color-black;
+      font-size: 24px;
+      margin-bottom: 0;
+      line-height: 100%;
+      font-family: $font-josefin-sans;
+      margin-top: 20px;
+    }
+    .designation {
+      color: $gb-color-grey;
+      font-size: 16px;
+      line-height: 40%;
+      margin: 15px 0;
+    }
+    .description {
+      color: $gb-color-grey;
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 15px;
+      min-height: 140px;
+    }
+  }
+}
+//meet out leader css end here
+
+//our core value css start here
+
+.our-core-values-wrapper {
+  .col-md-3 {
+    .common-core-value-box {
+      border-right: none;
+    }
+  }
+  .col-md-3:last-child .common-core-value-box {
+    border-right: solid 1px #e4e4e4;
+  }
+}
+.our-core-values-wrapper {
+  .common-core-value-box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 30px 0;
+    border-right: none;
+    margin: 15px;
+    border-radius: 22px;
+    box-shadow:0 2px 10px #8989895c;
+    position: relative;
+  .common-icon-wrapper {
+      width: 90px;
+      height: 90px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -8%;
+      left: 25px;
+      img {
+        max-width: 100%;
+        width: 53px;
+      }
+    }
+    .title {
+      font-family: $font-josefin-sans-md;
+      color: $gb-color-grey-dark;
+      font-size: 18px;
+      margin: 50px 0 14px;
+      line-height: 100%;
+    }
+    .description {
+      color: $gb-color-grey;
+      font-size: 15px;
+      line-height: 165%;
+      margin-bottom: 15px;
+    }
+  }
+}
+.common-icon-wrapper.Integrity,.Customer-Delight{
+  background-color: #FF4030;
+}
+.common-icon-wrapper.Timely-Delivery,.Quantify-Success{
+  background-color: black;
+}
+
+.our-core-values-wrapper .row .col-lg-3:last-child .common-core-value-box {
+  border-right: solid 1px #e4e4e4;
+}
+//our core value css end here
+
+/* media query start here */
+
+@media screen and (max-width:1800px){
+  .first-col .tabs-his-img {
+    padding-left: 120px;
+
+  }
+}
+@media screen and (max-width:1600px){
+  .slich-pos .back-btn-service {
+    left: -28%;
+    top: 280px;
+  }
+  .slich-pos .next-btn-service {
+    top: 280px;
+    left: -21%;
+  }
+
+  .tabs-div .style2:before {
+
+    left: 25px;
+    width: 85%;
+  }
+  .vertical-tab .style1 {
+    left: -189px;
+  }
+
+}
+
+@media screen and (max-width:1400px){
+
+  .common-heading-underline-2::before {
+    left: 5%;
+  }
+  .common-speaciality-col {
+    margin-top: 8px;
+  }
+  .slich-pos .next-btn-service {
+    top: 280px;
+    left: -50%;
+  }
+  .slich-pos .back-btn-service {
+    left: -58%;
+    top: 280px;
+  }
+  .our-service-sec .our-service-first-col {
+    padding: 130px 0 170px 70px;
+  }
+  .tabs-div .nav-link {
+    margin: 0 40px;
+  }
+  .our-core-values-wrapper {
+    .common-core-value-box {
+      min-height: 350px;
+    }
+  }
+}
+@media screen and (max-width:1199px){
+  .first-col-we-are-geeky .technology-1-img {
+    display: none;
+  }
+  .wrapper h2 {
+    font-size: 35px;
+  }
+  .words span {
+    font-size: 20px;
+  }
+  .we-are-geeky-bones-sec .we-geeky-row {
+    margin-top: 40px;
+  }
+  .second-col-we-are-geeky .tab-wraper {
+    margin-top: 0;
+  }
+  .second-col-we-are-geeky h3 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .slich-pos .back-btn-service {
+    left: -64%;
+  }
+  .slich-pos .next-btn-service {
+    left: -53%;
+  }
+  .common-heading-underline-2::before {
+    left: 6%;
+  }
+  .common-speaciality-col {
+    margin-top: 34px;
+  }
+  .blue-red-heading h2 {
+    font-size: 35px;
+  }
+  .white-red-heading h2 {
+    font-size: 35px;
+  }
+  .common-heading-underline h2::before {
+    top: 60px;
+    left: 46%;
+  }
+  .our-service-sec .our-service-first-col {
+    padding: 130px 0 170px 18px;
+  }
+  .common-heading-underline-2::before {
+    left: 2%;
+  }
+  .our-team-slider .pp2 {
+    left: -21px;
+  }
+  .div-word-wrap .single-heading {
+    font-size: 35px;
+  }
+  .technology-3-img {
+    width: 80%;
+    margin-top: -40px;
+    margin-left: 105px;
+  }
+  .first-col-we-are-geeky .technology-2-img {
+    width: 80%;
+    margin-top: 25px;
+  }
+  .tabs-div .nav-link {
+    margin: 0 25px;
+  }
+  .vertical li .nav-link {
+    margin-left: 10px;
+  }
+  .arrow-wrap .tab-arrow {
+    width: 18px;
+    margin: 17px 15px 0 0;
+  }
+  .common-about-img-text-wrapper {
+    .about-common-description {
+      h2 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .about-common-head-title-wrapper {
+    width: 100%;
+    h2 {
+      font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+    }
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      img {
+        max-width: 90px;
+        margin-top: -45px;
+      }
+      .name {
+        font-size: 19px;
+      }
+      .designation {
+        font-size: 14px;
+      }
+      .description {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 0;
+        min-height: 140px;
+      }
+    }
+  }
+  .our-core-values-wrapper {
+    .common-core-value-box {
+      padding: 25px 25px;
+      min-height: auto;
+      .title {
+        margin: 40px 0 11px;
+      }
+      .description {
+        margin-bottom: 0;
+      }
+      .common-icon-wrapper {
+        width: 80px;
+        height: 80px;
+        img {
+          width: 45px;
+        }
+      }
+    }
+  }
+  .life-at-geekybones-wrapper .about-common-description {
+    padding-left: 40px;
+  }
+  .our-mission-wrapper .about-common-description {
+    padding-right: 40px;
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      .leader-pic {
+        height: 95px;
+        width: 95px;
+      }
+    }
+  }
+}
+@media screen and (max-width:991px){
+  .wrapper h2 {
+    font-size: 30px;
+  }
+  .div-word-wrap .single-heading {
+    font-size: 30px;
+  }
+  .heading-desc {
+    font-size: 15px;
+    padding: 0 6% 0 10%;
+    text-align: justify;
+  }
+
+  .div-word-wrap .wrapper {
+    padding: 50px 50px 30px 0;
+  }
+  .our-team-slider .nn2 {
+    right: 128px;
+    top: 225px;
+  }
+  .our-team-slider .pp2 {
+    left: 115px;
+    top:225px;
+  }
+  .our-team-sec .our-team-row {
+    margin-top: 60px;
+  }
+  .our-team-common-col h5 {
+    font-size: 17px;
+  }
+  .our-team-common-col h6 {
+    font-size: 14px;
+  }
+  .our-team-first-col h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .our-team-first-col p {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .blue-red-heading h2 {
+    font-size: 30px;
+  }
+  .slich-pos .back-btn-service {
+    left: -63%;
+  }
+  .slich-pos .next-btn-service {
+    left: -49%;
+  }
+  .common-heading-underline h2::before {
+    top: 53px;
+  }
+  .common-heading-underline-3 h2::before {
+    top: 48px !important;
+    left: 5px;
+  }
+  .common-heading-underline-2 h2::before {
+    top: 50px;
+    left: 6px;
+  }
+  .common-speaciality-col {
+    margin-top: 15px;
+  }
+  .common-heading-underline-3::before {
+    top: 99px !important;
+  }
+  .second-col-we-are-geeky p,.second-col p,.common-speaciality-col p,.our-service-first-col p,.our-team-first-col p,.our-smart-first-col p,
+  .content-wrap p {
+    font-size: 14px;
+  }
+  .white-red-heading h2 {
+    font-size: 30px;
+  }
+  .common-couter-col h3 {
+    font-size: 30px;
+  }
+  .common-couter-col h5 {
+    font-size: 18px;
+  }
+  .common-couter-col .fa {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .first-col-we-are-geeky .technology-2-img {
+    width: 59%;
+    margin-top: 25px;
+  }
+  .technology-3-img {
+    width: 60%;
+    margin-top: -110px;
+    margin-left: 280px;
+  }
+  .second-col-we-are-geeky {
+    margin-top: 50px;
+  }
+  .arrow-wrap .tab-arrow {
+    display: none;
+  }
+  .style1 .common-link:after {
+    top: 39px;
+  }
+  .vertical li .nav-link {
+    margin-top: 22px;
+  }
+  .tabs-div .nav-link {
+    width: 100px;
+    font-size: 15px;
+  }
+  .tabs-div .nav-link {
+    margin: 12px 18px;
+  }
+  .second-col p {
+    margin-top: 15px;
+  }
+  .second-col {
+    margin-left: 17px;
+  }
+  .tabs-div .style2:before {
+    top: 171px;
+  }
+  .histroy-sec .tab-wraper-2 {
+    margin-top: 50px;
+  }
+  .vertical-tab .style1 {
+    top: -120px;
+  }
+  .tab-content .tab-content-wrap {
+    margin-top: 22px;
+  }
+  .first-col .tabs-his-img {
+    padding-left: 70px;
+  }
+  .history-inner .left-side ul li {
+    padding: 0 40px 15px 0;
+  }
+  .history-inner .right-side ul li {
+    padding: 0 0 15px 40px;
+  }
+  .history-inner h3 {
+    font-size: 18px;
+  }
+  //.history-inner .left-side ul li:before {
+  //  width: 33px;
+  //  height: 16px;
+  //  right: -6px;
+  //}
+  //.history-inner .right-side ul li:before {
+  //  width: 33px;
+  //  height: 16px;
+  //  left: -6px;
+  //}
+  .common-top-cirle-left {
+    right: -6px;
+  }
+  .common-top-cirle-right {
+    left: -6px;
+  }
+  .common-top-cirle-left, .common-top-cirle-right {
+    width: 40px;
+    position: absolute;
+    top: 6px;
+  }
+  .our-core-values-wrapper {
+    .common-core-value-box {
+      .description {
+        min-height: auto;
+      }
+    }
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      width: 100%;
+      padding: 74px 20px 25px;
+    }
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      .leader-pic {
+        height: 85px;
+        width: 85px;
+        margin: -43px auto 0;
+      }
+    }
+  }
+}
+@media screen and (max-width:767px){
+  .wrapper h2 {
+    font-size: 24px;
+  }
+  .words span {
+    font-size: 17px;
+  }
+  .div-word-wrap .wrapper {
+    height: 40px;
+  }
+  .div-word-wrap .single-heading {
+    margin-left: 15px;
+    font-size: 24px;
+  }
+  .we-are-geeky-bones-sec .div-word-wrap {
+    display: flex;
+    justify-content:flex-start;
+  }
+  .heading-desc {
+    font-size: 14px;
+    padding: 0;
+  }
+  .banner-btn {
+    height: 40px;
+    width: 114px;
+    font-size: 16px;
+    margin-top: 17px;
+  }
+  .our-team-second-col{
+    margin-top:100px;
+  }
+  .our-team-slider .pp2 {
+    left: 160px;
+    top: 290px;
+  }
+  .our-team-slider .nn2 {
+    right: 213px;
+    top: 290px;
+  }
+  .our-team-slider .pp2 {
+    left: 185px;
+    top: 290px;
+  }
+  .common-heading-underline-3::before {
+    top: 47px !important;
+  }
+  .our-smart-first-col h2 {
+    margin-top: 0;
+  }
+  .our-service-sec .slich-pos {
+    display: none;
+  }
+  .our-service-second-col .slich-pos-2 {
+    position: relative;
+    display: block;
+  }
+  .our-service-sec .our-service-second-col {
+    padding: 0 0 30px 0;
+    height: 100%;
+  }
+
+  .our-service-second-col .slick-slide {
+    height:100% !important;
+  }
+  .slich-pos-2 .back-btn-service-2 {
+    left: -12px;
+    top: 150px;
+  }
+  .common-heading-underline-2::before {
+    top: 100px;
+    left:3%;
+  }
+  .our-service-sec .our-service-first-col {
+    padding: 50px 20px;
+  }
+  .slich-pos-2 .next-btn-service-2 {
+    top: 150px;
+    right: -9px;
+  }
+  .our-smart-approach .bg-map-wrap {
+    background-image: none;
+  }
+  .first-col-we-are-geeky .technology-2-img {
+    width: 59%;
+    margin-top: 0;
+  }
+  .technology-3-img {
+    width: 60%;
+    margin-top: -67px;
+    margin-left: 179px;
+  }
+  .tabs-div .nav-link {
+    width: 90px;
+    font-size: 14px;
+  }
+  .tab-wraper-2 .vertical-tab {
+    display: none;
+  }
+  .tab-row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .first-col .tabs-his-img {
+    width: 100%;
+    padding-left:0;
+  }
+  .tabs-div .nav-link {
+    margin: 12px 4px;
+  }
+  .tabs-div .style2:before {
+    left: 15px;
+    width: 90%;
+  }
+  .second-col h4 {
+    font-size: 21px;
+  }
+  .second-col h6 {
+    font-size: 16px;
+  }
+  .second-col {
+    margin-left: 0;
+  }
+  .history-inner h4 {
+    font-size: 18px;
+    padding: 2px 0 5px;
+    margin-bottom: 0;
+    margin-top: 6px;
+  }
+  .history-inner p {
+    font-size: 14px;
+  }
+  .history-inner .common-top-bottom-round {
+    width: 30px;
+  }
+  .our-mission-wrapper {
+    .common-img-wrapper {
+      padding-right: 0;
+      text-align: center;
+    }
+  }
+  .life-at-geekybones-wrapper {
+    .common-img-wrapper {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  .common-about-img-text-wrapper {
+    .common-img-wrapper {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .our-mission-wrapper {
+    .about-common-description {
+      padding: 30px 0 0;
+    }
+  }
+  .common-about-img-text-wrapper {
+    .about-common-description {
+      h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+  .about-common-head-title-wrapper {
+    h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      margin-top: 60px;
+    }
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      .description {
+        min-height: auto;
+      }
+      .designation {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .life-at-geekybones-wrapper.common-about-img-text-wrapper {
+    .about-common-description {
+      padding-left: 0;
+      margin-bottom: 25px;
+    }
+  }
+  .our-core-values-wrapper {
+    .common-core-value-box {
+      margin-bottom: 15px;
+      .common-icon-wrapper {
+        width: 65px;
+        height: 65px;
+        img {
+          width: 38px;
+        }
+      }
+    }
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      img {
+        max-width: 70px;
+        margin-top: -35px;
+      }
+    }
+  }
+  .life-at-geekybones-wrapper.common-about-img-text-wrapper .slick-slider {
+    width: 100%;
+  }
+  .life-at-geekybones-wrapper.common-about-img-text-wrapper {
+    .slick-slider {
+      .common-img-wrapper {
+        height: 370px;
+      }
+    }
+  }
+  .life-at-geekybones-wrapper.common-about-img-text-wrapper {
+    .slick-slider {
+      .life-geeky-next-btn {
+        right: 0;
+      }
+      .life-geeky-prev-btn {
+        left: 0;
+      }
+    }
+  }
+  .life-at-geekybones-wrapper.common-about-img-text-wrapper {
+    .slick-slider {
+      .common-life-geeky-next-prev-btn {
+        border-radius: 25px;
+        width: 25px;
+        height: 25px;
+        img {
+          width: 14px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:576px){
+  .media-query-heading h2{
+    display: block;
+    padding: 0 0 15px 0;
+    line-height: 30px;
+  }
+  .we-are-geeky-bones-sec .div-word-wrap {
+    display: none;
+  }
+
+  .we-are-geeky-bones-sec .we-geeky-row {
+    margin-top: 35px;
+  }
+
+  .banner-btn {
+    height: 35px;
+    width: 100px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .second-col-we-are-geeky p, .second-col p, .common-speaciality-col p, .our-service-first-col p, .our-team-first-col p, .our-smart-first-col p, .content-wrap p {
+    font-size: 13px;
+  }
+  .second-col-we-are-geeky .tabs-left-div .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .second-col-we-are-geeky .tabs-left-div .nav-pills .nav-link {
+    font-size: 15px;
+  }
+  .our-service-sec .our-service-first-col {
+    padding: 30px 10px;
+  }
+  .blue-red-heading h2 {
+    font-size: 23px;
+  }
+  .white-red-heading h2 {
+    font-size: 23px;
+  }
+  .common-heading-underline-2::before {
+    top: 67px;
+    left: 5%;
+  }
+  .common-heading-underline-3::before {
+    top: 37px !important;
+  }
+  .our-service-first-col p {
+    padding-right: 0;
+    margin-top: 25px;
+  }
+  .common-heading-underline h2::before {
+    top: 41px;
+    left:37%;
+  }
+  .our-team-common-col .common-img {
+    width: 100%;
+  }
+  .our-team-slider .nn2 {
+    right: -7px;
+    top: 35%;
+    background: transparent;
+  }
+  .our-team-slider .pp2 {
+    left:-8;
+    top:35%;
+    background-color: transparent;
+  }
+  .our-team-common-col h5 {
+    text-align: center;
+  }
+  .our-team-common-col h6 {
+    text-align: center;
+  }
+  .our-team-second-col {
+    display: none;
+  }
+  .our-team-first-col h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .our-team-sec .our-team-row {
+    margin-top: 30px;
+  }
+  .our-smart-first-col p {
+    margin-top: 20px;
+  }
+  .content-wrap h5 {
+    font-size: 18px;
+  }
+  .icon-wrap .fa {
+    font-size: 30px;
+  }
+  .common-couter-col h5 {
+    font-size: 16px;
+  }
+  .common-couter-col h3 {
+    font-size: 24px;
+  }
+  .common-couter-col .fa {
+    font-size: 25px;
+  }
+  .counter-sec .common-couter-col {
+    margin-top: 50px;
+  }
+  .common-heading-underline-2 h2::before {
+    top: 32px !important;
+    left: 3px;
+  }
+  .technology-3-img {
+    width: 75%;
+    margin-top: -50px;
+    margin-left:93px;
+  }
+  .second-col-we-are-geeky {
+    margin-top: 30px;
+  }
+  .tabs-div .nav-link {
+    width: 85px;
+    font-size: 13px;
+  }
+  .tabs-div .nav-link {
+    margin: 0 4px 10px 4px;
+  }
+  .tabs-div .style2:before {
+    border-bottom:none;
+  }
+  .second-col {
+    margin-left: 0;
+  }
+  .our-service-sec {
+    margin-top: 30px;
+  }
+  .second-col h4 {
+    font-size: 18px;
+  }
+  .second-col h6 {
+    font-size: 14px;
+    margin-top: 14px;
+  }
+  .slich-pos-2 .next-btn-service-2 {
+    right: 0;
+  }
+  .our-smart-second-col .common-col-our-smart-approch:hover{
+    background-color:$gb-color-white;
+  }
+  .common-col-our-smart-approch:hover h5{
+    color: $gb-color-black;
+  }
+  .common-col-our-smart-approch:hover p{
+    color: $gb-color-grey;
+  }
+  .common-col-our-smart-approch:hover .fa{
+    color: $gb-color-red;
+  }
+  .meet-our-leaders-wrapper {
+    .common-leader-box-wrapper {
+      .leader-pic {
+        height: 72px;
+        width: 72px;
+        margin: -36px auto 0;
+      }
+    }
+  }
+  .life-at-geekybones-wrapper.common-about-img-text-wrapper {
+    .slick-slider {
+      .common-img-wrapper {
+        height: 270px;
+      }
+    }
+  }
+  .history-inner h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:330px){
+
+  .common-heading-underline-4 h2::before{
+    top:62px;
+  }
+}
+/* media query end here */

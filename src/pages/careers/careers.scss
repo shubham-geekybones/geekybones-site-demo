@@ -1,0 +1,288 @@
+@import "./src/constants/colors/colors";
+@import "src/constants/fonts/fonts";
+.gb-common-approach-development-box {
+  min-height: 260px;
+}
+.careers-title-wrap {
+  margin-top: -550px;
+}
+.technology-sec{
+  margin-top:50px;
+  margin-bottom: 50px;
+  position: relative;
+  // z-index: 99;
+}
+.technology-wrapper{
+  padding:40px;
+  background-color:  $gb-color-white;
+}
+.nav-item-common{
+  background-color:$gb-color-white !important;
+  border:1px solid;
+}
+.nav-link-common {
+  color: navy !important;
+  margin-left:0;
+  font-weight: bold;
+  width: 100%;
+}
+.technology-sec .list-group-item {
+  color:navy !important;
+  font-weight: bold;
+}
+.technology-sec .main-list {
+  color:$gb-color-white !important;
+  background-color: navy !important;
+}
+.technology-sec .list-accordation-sec{
+  background-color:#afb9c8;
+  padding:20px;
+}
+.technology-sec .accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color:$gb-color-white;
+  font-weight: bold;
+  text-align: left;
+  background-color:$gb-color-red;
+  border:none;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+  border-radius 0.15s ease;
+}
+.technology-sec .accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(../../../src/assets/images/arrow-up-white.png);
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+}
+.technology-sec .accordion-button:not(.collapsed)::after {
+  background-image: url(../../../src/assets/images/arrow-up-white.png);
+}
+.technology-sec .accordion-button:not(.collapsed) {
+  color: $gb-color-white;
+  background-color: $gb-color-red;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.technology-sec .accordion-button:focus {
+  border:none;
+  outline: 0;
+  box-shadow: none;
+}
+.second-col{
+  background-color:$gb-color-white;
+  padding:20px;
+}
+.technology-sec .nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border: none;
+  background-color: $gb-color-white;
+  color: $gb-color-grey !important;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: solid 1px #c5c5c5;
+  padding: 8px 30px;
+  margin: 0px 0px 16px 0px;
+  display: flex;
+  align-items: center;
+}
+.technology-sec .nav-pills .nav-link span{
+  margin: 9px 2px 3px 26px;
+}
+.technology-first-col .nav-pills .nav-link {
+  position: relative;
+}
+.technology-sec .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: $gb-color-white !important;
+  background-color:$gb-color-red;
+  border-right: none;
+}
+.nav-link {
+  background-color: initial;
+  color: initial;
+}
+
+.technology-sec .nav-pills .nav-link.active {
+  background-color: red;
+  color: white;
+  & ellipse{
+    stroke: white;
+    fill: red;
+  }
+  & svg path{
+    stroke: white;
+    fill: red;
+  }
+}
+.position-rl{
+  position:relative;
+}
+.position-common{
+  margin-left:48%;
+  font-weight: bold;
+}
+.carrers-ul-wrap{
+  list-style: disc;
+  margin-left: 30px;
+}
+.technology-sec ::marker {
+  font-size: 30px;
+  line-height: 19px;
+  color:$gb-color-grey;
+}
+.gb-btn-md-red-carrier {
+  background-color:$gb-color-red;
+  color:$gb-color-white;
+  border-radius: 30px 30px 30px 30px;
+  border:none;
+  outline:none;
+  padding: 10px 20px;
+  display: inline-flex;
+}
+.gb-btn-md-red-carrier:hover, .gb-btn-md-red-carrier:focus, .gb-btn-md-red-carrier:active {
+  color: $gb-color-white;
+}
+.accordion-body p{
+  font-size: 18px;
+  color: $gb-color-black;
+}
+.accordion-body h3{
+  font-family: $font-roboto-bd;
+  color: $gb-color-black;
+  font-size:28px;
+}
+.technology-wrapper .accordion-item h4,.portfolio-tabs-wrapper-main .accordion-header button{
+  font-size:18px;
+  color:$gb-color-white;
+}
+.technology-wrapper .accordion-item .accordion-header .accordion-button {
+  font-size: 18px;
+}
+.gb-common-approach-development-box .common-approach-development-icon {
+  width: 57px;
+}
+.gb-common-approach-development-box .title {
+  font-size:40px;
+}
+.technology-sec .common-heading p a {
+  color: $gb-color-red;
+}
+//himanshu style css end here
+//careers page css end here
+@media screen and (max-width: 991px) {
+  .technology-first-col .nav-link.active:after {
+    content: none;
+  }
+  .technology-first-col {
+    width: 100%;
+    #v-pills-tab {
+      width: 100%;
+      .nav-link {
+        border-radius: 50px;
+        margin-bottom: 10px;
+        border: solid 1px #ff968e;
+      }
+    }
+  }
+  .technology-second-col {
+    #v-pills-tabContent {
+      .tab-pane {
+        .accordion {
+          .accordion-item {
+            button {
+              border-radius: 50px;
+              font-size: 16px;
+            }
+            h4 {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .accordion-body p {
+    font-size: 14px;
+  }
+  .accordion-body h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion-button::after {
+    margin-left:30%;
+  }
+  .accordion-item h4, .accordion-header button {
+    font-size: 13px;
+  }
+  .nav-pills .nav-link {
+    font-size: 13px;
+  }
+  .accordion-body p {
+    font-size: 13px;
+  }
+  .accordion-body h3 {
+    font-size: 20px;
+  }
+  .carrers-ul-wrap li{
+    font-size: 13px;
+  }
+  ::marker {
+    font-size: 21px;
+  }
+  .nav-pills .nav-link.active::after, .nav-pills .show > .nav-link {
+    border-top: 16px solid transparent;
+    border-bottom: 21px solid transparent;
+    border-left: 20px solid $gb-color-red;
+    top: 0;
+  }
+  .technology-second-col {
+    margin-left: 0;
+  }
+  .technology-second-col {
+    #v-pills-tabContent {
+      .tab-pane {
+        .accordion {
+          .accordion-item {
+            border: none;
+            button:after {
+              background-size: 0.91rem;
+              width: 18px;
+              height: 11px;
+              position: absolute;
+              right: 15px;
+              top: 44%;
+            }
+            button {
+              display: flex;
+              flex-direction: column;
+              font-size: 18px;
+            }
+            h4 {
+              margin-top: 5px;
+            }
+            .accordion-body {
+              display: flex;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+  .technology-wrapper {
+    .position-common {
+      margin-left: inherit;
+    }
+  }
+}

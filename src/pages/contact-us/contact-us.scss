@@ -1,0 +1,245 @@
+@import "./src/constants/colors/colors";
+
+.banner-btn {
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 4px;
+  color: $gb-color-white;
+  position: relative;
+  z-index: 1;
+  margin-top:30px;
+  background-color: $gb-color-red;
+}
+.banner-btn:hover {
+  color:$gb-color-red;
+}
+.banner-btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color: $gb-color-white;
+  color:$gb-color-white !important;
+  content: "";
+  border-radius: 4px;
+}
+.banner-btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+/* common css end here */
+
+/* contact form sec css start here */
+.contact-form-sec {
+  .contact-row {
+    margin-top:40px;
+    .contact-first-col {
+      .form-wrap {
+        padding: 20px 50px;
+        background-color: $gb-color-white-light;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px  #89898999;
+      }
+    }
+    .contact-second-col {
+      height: 100%;
+      iframe{
+        width:100%;
+        height:100%;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+/* contact form sec css end here */
+
+/* ready-to-talk-sec css start here */
+.ready-to-talk-sec {
+  background-color: transparent;
+}
+.ready-to-talk-sec {
+  .ready-sec-common-col {
+    padding: 30px;
+    box-shadow: 0 2px 10px #8989895c;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 217px;
+    transition: 0.3s ease-in-out;
+  }
+}
+.ready-sec-common-col p {
+  font-size: 18px;
+  color: $gb-color-black;
+  text-align: center;
+}
+.ready-sec-common-col .fa-common-wrap {
+  display: flex;
+  justify-content: center;
+  background-color: $gb-color-black;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+}
+.ready-sec-common-col:hover .fa-common-wrap {
+  background-color: $gb-color-red;
+}
+.fa-common-wrap .fa {
+  color: $gb-color-white;
+  transition: 0.3s ease-in-out;
+}
+/* ready-to-talk-sec css end here */
+
+/* media query start here */
+@media screen and (max-width:1400px){
+  .ready-sec-common-col p {
+    font-size: 16px;
+    color: $gb-color-black;
+    text-align: center;
+  }
+}
+@media screen and (max-width:1199px){
+  .ready-to-talk-sec {
+    .ready-sec-common-col {
+      min-height: 235px;
+    }
+  }
+  .common-heading {
+    h2 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+  .massanger-wrap {
+    .social-common-wrap-border {
+      top: -40px;
+      left: 28px;
+    }
+  }
+}
+@media screen and (max-width:991px){
+  .common-heading {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .contact-form-sec {
+  }
+  .ready-sec-common-col {
+    p {
+      font-size: 14px;
+    }
+  }
+  .contact-first-col {
+    .form-wrap {
+      padding: 10px 20px;
+    }
+  }
+
+}
+@media screen and (max-width:767px){
+  .contact-second-col {
+    iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+  }
+  .ready-to-talk-sec {
+    .ready-sec-common-col {
+      min-height: auto;
+    }
+  }
+  .ready-sec-common-col {
+    .fa-common-wrap {
+      width: 45px;
+      height: 45px;
+      .fa {
+        font-size: 24px;
+      }
+    }
+  }
+  .ready-to-talk-sec {
+    .ready-sec-common-col:nth-child(2) {
+      background-color: $gb-color-red;
+    }
+  }
+  .social-common-wrap-border {
+    .social-common {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .contact-form-sec .contact-row .contact-second-col {
+    height: auto;
+  }
+}
+@media screen and (max-width:576px){
+  .contact-form-sec {
+    .contact-row {
+      .contact-first-col {
+        .form-wrap {
+          padding: 10px 10px 20px 10px;
+        }
+      }
+    }
+  }
+
+
+  .banner-btn {
+    height: 36px;
+    width: 100px;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .contact-first-col {
+    .banner-btn {
+      margin-top: 10px;
+    }
+  }
+  .common-heading {
+    p {
+      font-size: 13px;
+      margin-top: 7px;
+    }
+  }
+  .contact-form-sec {
+    .contact-row {
+      margin-top: 15px;
+    }
+  }
+  .common-heading {
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .ready-to-talk-sec {
+    .ready-sec-common-col {
+      margin-top: 25px;
+      padding: 15px;
+    }
+  }
+}
+
+/* media query end here */

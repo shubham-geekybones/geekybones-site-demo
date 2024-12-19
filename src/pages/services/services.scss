@@ -1,0 +1,1613 @@
+@import "../../constants/colors/colors";
+
+/* web development css start here */
+.web-development-company-sec{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/images/web-develop-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+.web-development-first-col h2 {
+  font-weight: bold;
+  color:$gb-color-white;
+}
+.web-development-first-col h2 span{
+  color:$gb-color-red;
+}
+.web-development-first-col p{
+  color:$gb-color-white;
+  font-size: 16px;
+}
+.gb-animate-md-btn-red.view-portfolio-btn:hover {
+  color: $gb-color-red;
+}
+.gb-animate-md-btn-red.view-portfolio-btn::before {
+  background-color: $gb-color-white;
+}
+.web-develop-first-col-btn .web-develop-port-folio-btn {
+  height: 60px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 4px;
+  color: $gb-color-white;
+  position: relative;
+  z-index: 1;
+  margin-top:30px;
+  background-color: $gb-color-red;
+}
+.web-develop-first-col-btn .web-develop-port-folio-btn:hover {
+  color:$gb-color-red;
+}
+.web-develop-first-col-btn .web-develop-port-folio-btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color: $gb-color-white;
+  color:$gb-color-red !important;
+  content: "";
+}
+.web-develop-first-col-btn .web-develop-port-folio-btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.web-development-company-sec .web-development-second-col {
+  background-image: linear-gradient(419deg, $gb-color-red, #333c64);
+  padding: 30px 80px;
+  border-radius:10px;
+  color:$gb-color-white
+}
+.web-development-second-col h2{
+  font-weight: 800;
+}
+.web-development-second-col h2, .web-development-second-col p {
+  text-align: center;
+}
+.web-development-second-col .common-input-wrap {
+  text-align: left;
+}
+.web-development-second-col .common-input-wrap .error-message {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  top: 3px;
+}
+.web-development-second-col .form.form-wrap {
+  text-align: center;
+}
+.web-development-form-common .web-develop-from-contral{
+  margin-top:20px;
+  height:45px;
+}
+.web-development-form-common .web-develop-from-contral:focus {
+  color: $gb-color-black;
+  background-color: $gb-color-white;
+  border-color:$gb-color-black;
+  outline: 0;
+  box-shadow:none;
+}
+.web-development-form-common .web-develop-from-contral:hover {
+  border:2px solid $gb-color-black;
+}
+.web-development-form-common .text-area-web-development{
+  height:60px;
+}
+.form-btn .mobile-app-service-form-btn {
+  height: 60px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 4px;
+  color: $gb-color-white;
+  position: relative;
+  z-index: 1;
+  margin-top:30px;
+  background-color: $gb-color-black;
+}
+.form-btn .mobile-app-service-form-btn:hover {
+  color:$gb-color-red;
+}
+.form-btn .mobile-app-service-form-btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color: $gb-color-white;
+  color:$gb-color-red !important;
+  content: "";
+}
+.form-btn .mobile-app-service-form-btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+/* web development css end here */
+
+/* services-old-content-sec css start here */
+.web-development-content-sec{
+  background-color: $gb-color-white;
+}
+.web-development-tech-heading h2{
+  font-weight: 800;
+  text-align: center;
+  color:$gb-color-black;
+}
+.web-development-tech-heading p{
+  font-size: 16px;
+  color:$gb-color-grey;
+  text-align: center;
+  margin:20px 0 0;
+}
+.web-development-tech-heading h2 span{
+  color:$gb-color-red;
+}
+.technology-btn-wrap {
+  display: flex;
+}
+.technology-btn-wrap a {
+  display: flex;
+  padding: 8px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.technology-btn-wrap img {
+  width: 132px;
+  height: auto;
+}
+
+/* services-old-content-sec css end here */
+
+/* web development technology css start here */
+.tab-img-common{
+  width:50px;
+  margin-bottom: 10px;
+  transition:all 0.3s;
+}
+.web-dev-common-tab:hover .tab-img-common {
+  width:60px;
+  transform: rotate(360deg);
+}
+.web-dev-common-tab h5{
+  color:$gb-color-black;
+  font-size: 21px;
+}
+.web-development-technology-sec{
+  background-repeat: no-repeat;
+  background-size: 10% 40%;
+  background-position: 11% 100%;
+  position: relative;
+}
+.web-development-technology-sec.digital-marketing-services-sec {
+  background-color: transparent;
+}
+.technology-first-col-wd {
+  position: absolute;
+  top:100px;
+  right:0;
+  width: 9%;
+  z-index: 1,
+}
+section.web-development-technology-sec.mob-development-technology-sec .technology-first-col-wd, .web-development-technology-sec.graphic-design-technology-sec .technology-first-col-wd {
+  left: 0;
+}
+.web-development-technology-sec  .technology-second-col {
+  padding: 0;
+  height: 100%;
+}
+.web-development-technology-sec {
+  .technology-second-col {
+    img {
+      width: 100%;
+    }
+  }
+}
+.web-development-technology-sec.digital-marketing-services-sec {
+  .technology-second-col {
+    img {
+      width: 70%;
+    }
+  }
+}
+.technology-first-col-wd .nav-pills .nav-link:hover {
+  //background-size: 13% 46%;
+  background-repeat: no-repeat;
+  //background-position: 10% 47%;
+}
+
+.tab-wraper .tab-btn,
+.tab-wraper .tab-btn:focus {
+  margin-top: 6px;
+  border:none;
+  outline:none;
+  width:100%;
+  height:50px;
+  font-size: 14px;
+  text-align: start;
+  background-size: calc(18px);
+  background-position: 10% 47%;
+}
+.tab-button-wrapper .nav-pills .cms-btn{
+  background-image: url(../../assets/images/cms.png);
+  background-repeat: no-repeat;
+}
+.tab-button-wrapper .nav-pills .cms-btn:hover,.tab-button-wrapper .nav-pills .cms-btn.active{
+  background-image: url(../../assets/images/cms-white.png);
+  background-color:$gb-color-red;
+  color:$gb-color-white;
+}
+.tab-button-wrapper .nav-pills .Frameworks-btn{
+  background-image: url(../../assets/images/framework.png);
+  background-repeat: no-repeat;
+}
+.tab-button-wrapper .nav-pills .Frameworks-btn:hover,.tab-button-wrapper .nav-pills .Frameworks-btn.active{
+  background-image: url(../../assets/images/framwork-white.png);
+  background-color: $gb-color-red;
+  color:$gb-color-white;
+}
+.tab-button-wrapper .nav-pills .web-service-btn{
+  background-image: url(../../assets/images/globe.png);
+  background-repeat: no-repeat;
+}
+.tab-button-wrapper .nav-pills .web-service-btn:hover,.tab-button-wrapper .nav-pills .web-service-btn.active{
+  background-image: url(../../assets/images/web-service.png);
+  background-color: $gb-color-red;
+  color:$gb-color-white;
+}
+.tab-button-wrapper .nav-pills .js-libraries{
+  background-image: url(../../assets/images/online-library.png);
+  background-repeat: no-repeat;
+}
+.tab-button-wrapper .nav-pills .js-libraries:hover,.tab-button-wrapper .nav-pills .js-libraries.active{
+  background-image: url(../../assets/images/jas-librares-white.png);
+  background-color: $gb-color-red;
+  color:$gb-color-white;
+}
+
+.tab-button-wrapper .nav-pills .front-end-btn{
+  background-image: url(../../assets/images/web-design.png);
+  background-repeat: no-repeat;
+}
+.tab-button-wrapper .nav-pills .front-end-btn:hover,.tab-button-wrapper .nav-pills .front-end-btn.active{
+  background-image: url(../../assets/images/front-end-white.png);
+  background-color: $gb-color-red;
+  color:$gb-color-white;
+}
+.tab-button-wrapper .nav-pills .database-btn{
+  background-image: url(../../assets/images/server-storage.png);
+  background-repeat: no-repeat;
+}
+.tab-button-wrapper .nav-pills .database-btn:hover,.tab-button-wrapper .nav-pills .database-btn.active{
+  background-image: url(../../assets/images/database-white.png);
+  background-color: $gb-color-red;
+  color:$gb-color-white;
+}
+
+.tab-button-wrapper .nav-pills .nav-link.active,
+.tab-button-wrapper  .nav-pills .show>
+.tab-button-wrapper .nav-link {
+  color: $gb-color-white;
+  background-color: $gb-color-red;
+  background-repeat: no-repeat;
+}
+.tab-span{
+  margin-left:30px;
+}
+.tab-button-wrapper .nav-pills .nav-link {
+  background-color: $gb-color-white-light;
+  padding: 0 10px;
+}
+.tab-content .web-dev-common-tab{
+  box-shadow: 0 5px 10px #00000033;
+  padding:20px;
+  width:100%;
+  border-radius:20px;
+  text-align: center;
+  margin-top:20px;
+}
+
+.tab-btn .csm-img{
+  width:30px;
+  margin-right:10px;
+  transition:all 0.5s;
+}
+
+.hexagon{
+  position:relative;
+  width:130px;
+  height:110px;
+}
+
+.technology-third-col{
+  padding: 0 50px;
+}
+.technology-third-col h2{
+  color:$gb-color-black;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hexagonal_shape {
+  max-width: 155px;
+  margin: 0 auto;
+  padding: 4px;
+  transition: all .5s ease-out;
+  display: block;
+}
+.hexagonal_shape .hexa-box {
+  position: relative;
+  background-color: $gb-color-white;
+  width: 80px;
+  height: 122px;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -ms-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.hexagonal_shape .hexa-box:after, .hexagonal_shape .hexa-box:before {
+  content: "";
+  background-color: $gb-color-white;
+  position: absolute;
+  top: 16px;
+  width: 86px;
+  height: 85px;
+  -webkit-transform: scaleX(.6774) rotate(-45deg);
+  transform: scaleX(.6774) rotate(-45deg);
+}
+.hexagonal_shape .hexa-box:before {
+  right: calc(100% - 44px);
+  border-top: 3px solid #ccc;
+  border-left: 3px solid #ccc;
+}
+.hexagonal_shape .hexa-box img {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+}
+.hexagonal_shape .hexa-box:after {
+  left: calc(100% - 44px);
+  border-bottom: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+}
+.hexagonal_shape .hexa-box:after, .hexagonal_shape .hexa-box:before {
+  content: "";
+  background-color: $gb-color-white;
+  position: absolute;
+  top: 16px;
+  width: 86px;
+  height: 85px;
+  -webkit-transform: scaleX(.6774) rotate(
+                  -45deg
+  );
+  transform: scaleX(.6774) rotate(
+                  -45deg
+  );
+  transition: all 2s;
+}
+.hexagonal_shape .hexa-box{
+  transition: all 2s;
+  position: relative;
+}
+.hexagonal_shape .hexa-box:hover{
+}
+.hexagonal_shape .hexa-box:hover .common-bg-icon {
+  transform: scale(1.1);
+}
+
+.tab-pane .hexagon-wrapper{
+  position: relative;
+}
+.tab-pane .hexagon-wrapper aside .common-bg-icon {
+  transition: 0.5s ease-in-out;
+}
+.common-bg-icon{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding:30px;
+  z-index: 9;
+
+}
+.hexagonal_shape:focus{
+  outline: none !important;
+}
+.wordpress-wrap:focus{
+  outline: none !important;
+}
+.slick-active{
+  outline: none !important;
+}
+.hexagon-wrapper .wordpress-wrap{
+  position: absolute;
+  top:0;
+  left:300px;
+}
+.wordpress-bg-wrap{
+  background-image: url(../../assets/images/wordpress-wd.png);
+}
+//.wordpress-wrap:hover .wordpress-bg-wrap{
+//  background-image: url(../../assets/images/wordpress-white-img.png);
+//}
+
+
+.hexagon-wrapper .drupal-wrap{
+  position:absolute;
+  top:129px;
+  left:300px;
+}
+.drupal-bg-wrap{
+  background-image: url(../../assets/images/drupal.png);
+}
+//.drupal-wrap:hover .drupal-bg-wrap{
+//  background-image: url(../../assets/images/drupal-white-img.png);
+//}
+
+
+.hexagon-wrapper .wix-wrap{
+  position:absolute;
+  top:259px;
+  left:300px;
+}
+.wix-bg-wrap{
+  background-image: url(../../assets/images/wix.png);
+}
+//.wix-wrap:hover .wix-bg-wrap{
+//  background-image: url(../../assets/images/wix-white-img.png);
+//}
+
+.hexagon-wrapper .shopify-wrap{
+  position:absolute;
+  top: 64px;
+  left: 428px;
+}
+.sopify-bg-wrap{
+  background-image: url(../../assets/images/shopify.png);
+}
+//.shopify-wrap:hover .sopify-bg-wrap{
+//  background-image: url(../../assets/images/shopify-white-img.png);
+//}
+
+.hexagon-wrapper .bigcommcer-wrap{
+  position:absolute;
+  top: 194px;
+  left: 429px;
+}
+.big-commerce-bg-wrap{
+  background-image: url(../../assets/images/big-commerce.png);
+}
+//.bigcommcer-wrap:hover .big-commerce-bg-wrap{
+//  background-image: url(../../assets/images/bigcommerce-white-img.png);
+//}
+
+
+.hexagon-wrapper .magento-wrap{
+  position:absolute;
+  top: 66px;
+  left: 173px;
+}
+.woo-bg-wrap{
+  background-image: url(../../assets/images/woo-logo.png);
+}
+//.woo-wrap:hover .woo-bg-wrap{
+//  background-image: url(../../assets/images/woo-white.png);
+//}
+
+
+.hexagon-wrapper .woo-wrap{
+  position:absolute;
+  top: 196px;
+  left: 172px;
+}
+.magento-bg-wrap{
+  background-image: url(../../assets/images/magento.png);
+}
+//.magento-wrap:hover .magento-bg-wrap{
+//  background-image: url(../../assets/images/magenta-white-img.png);
+//}
+
+
+.laravel-bg-wrap{
+  background-image: url(../../assets/images/laravel-red.png);
+}
+//.drupal-wrap:hover .laravel-bg-wrap{
+//  background-image: url(../../assets/images/laravel-white.png);
+//}
+
+
+.cakephp-bg-wrap{
+  background-image: url(../../assets/images/cakephp.png);
+}
+//.shopify-wrap:hover .cakephp-bg-wrap{
+//  background-image: url(../../assets/images/phpcake-white.png);
+//}
+
+
+.yii-bg-wrap{
+  background-image: url(../../assets/images/yii.png);
+}
+//.bigcommcer-wrap:hover .yii-bg-wrap{
+//  background-image: url(../../assets/images/yii-white.png);
+//}
+
+
+.zend-bg-wrap{
+  background-image: url(../../assets/images/zend.png);
+}
+//.magento-wrap:hover .zend-bg-wrap{
+//  background-image: url(../../assets/images/zend-white.png);
+//}
+
+.codieither-bg-wrap{
+  background-image: url(../../assets/images/codineither.png);
+}
+//.woo-wrap:hover .codieither-bg-wrap{
+//  background-image: url(../../assets/images/codeigniter-white.png);
+//}
+
+.globe-bg-wrap{
+  background-image: url(../../assets/images/globe.png);
+}
+//.drupal-wrap:hover .globe-bg-wrap{
+//  background-image: url(../../assets/images/globle-white.png);
+//}
+
+.xml-bg-wrap{
+  background-image: url(../../assets/images/xml.png);
+}
+//.shopify-wrap:hover .xml-bg-wrap{
+//  background-image: url(../../assets/images/xml-white.png);
+//}
+
+
+.jason-bg-wrap{
+  background-image: url(../../assets/images/jason.jpeg);
+}
+//.bigcommcer-wrap:hover .jason-bg-wrap{
+//  background-image: url(../../assets/images/jason-white.png);
+//}
+
+
+.ajax-bg-wrap{
+  background-image: url(../../assets/images/ajax.png);
+}
+//.magento-wrap:hover .ajax-bg-wrap{
+//  background-image: url(../../assets/images/ajax-white.png);
+//}
+
+
+.graphql-bg-wrap{
+  background-image: url(../../assets/images/graphql.png);
+}
+//.woo-wrap:hover .graphql-bg-wrap{
+//  background-image: url(../../assets/images/ajax-white.png);
+//}
+
+.jquery-bg-wrap{
+  background-image: url(../../assets/images/jquery.png);
+}
+//.drupal-wrap:hover .jquery-bg-wrap{
+//  background-image: url(../../assets/images/jquery-white.png);
+//}
+
+
+.prototype-bg-wrap{
+  background-image: url(../../assets/images/prototype-2.png);
+}
+//.shopify-wrap:hover .prototype-bg-wrap{
+//  background-image: url(../../assets/images/prototype-white.png);
+//}
+
+.angular-bg-wrap{
+  background-image: url(../../assets/images/angular.png);
+}
+//.bigcommcer-wrap:hover .angular-bg-wrap{
+//  background-image: url(../../assets/images/angular-white.png);
+//}
+
+
+.reactjs-bg-wrap{
+  background-image: url(../../assets/images/react.png);
+}
+//.magento-wrap:hover .reactjs-bg-wrap{
+//  background-image: url(../../assets/images/react-white.png);
+//}
+
+
+.flutter-bg-wrap{
+  background-image: url(../../assets/images/flutter-logo.svg);
+}
+//.woo-wrap:hover .flutter-bg-wrap{
+//  background-image: url(../../assets/images/react-white.png);
+//}
+
+
+.html-bg-wrap{
+  background-image: url(../../assets/images/html.png);
+}
+//.drupal-wrap:hover .html-bg-wrap{
+//  background-image: url(../../assets/images/html-white.png);
+//}
+
+.css-bg-wrap{
+  background-image: url(../../assets/images/css.png);
+}
+//.shopify-wrap:hover .css-bg-wrap{
+//  background-image: url(../../assets/images/css-white.png);
+//}
+
+
+.javascript-bg-wrap{
+  background-image: url(../../assets/images/javascript.png);
+}
+.svelte-bg-wrap{
+  background-image: url(../../assets/images/svelte.png);
+}
+.psql-bg-wrap{
+  background-image: url(../../assets/images/psql.png);
+}
+.rabbitmq-bg-wrap{
+  background-image: url(../../assets/images/rabbitmq.png);
+}
+
+.objective-c-bg-wrap{
+  background-image: url(../../assets/images/objective-c.png);
+}
+.swift-bg-wrap{
+  background-image: url(../../assets/images/swift-logo.png);
+}
+.kotlin-bg-wrap{
+  background-image: url(../../assets/images/kotlin-logo.png);
+}
+
+.material-bg-wrap{
+  background-image: url(../../assets/images/material-ui.png);
+}
+.firebase-bg-wrap{
+  background-image: url(../../assets/images/firebase.png);
+}
+.parse-bg-wrap{
+  background-image: url(../../assets/images/parse.png);
+}
+.cometchat-bg-wrap{
+  background-image: url(../../assets/images/cometchat.png);
+}
+.websocket-bg-wrap{
+  background-image: url(../../assets/images/websocket.png);
+}
+
+
+//.bigcommcer-wrap:hover .javascript-bg-wrap{
+//  background-image: url(../../assets/images/javascript-white.png);
+//}
+
+
+.sass-bg-wrap{
+  background-image: url(../../assets/images/sass.png);
+}
+//.magento-wrap:hover .sass-bg-wrap{
+//  background-image: url(../../assets/images/sass-white.png);
+//}
+
+.bootstrap-bg-wrap{
+  background-image: url(../../assets/images/bootstrap.png);
+}
+//.woo-wrap:hover .bootstrap-bg-wrap{
+//  background-image: url(../../assets/images/sass-white.png);
+//}
+
+.mysql-bg-wrap{
+  background-image: url(../../assets/images/mysql.png);
+}
+//.wordpress-wrap:hover .mysql-bg-wrap{
+//  background-image: url(../../assets/images/mysql-white.png);
+//}
+
+
+.mysql-x5-bg-wrap{
+  background-image: url(../../assets/images/mysql.png);
+}
+//.drupal-wrap:hover .mysql-x5-bg-wrap{
+//  background-image: url(../../assets/images/mysql-white.png);
+//}
+
+
+.mongodb-bg-wrap{
+  background-image: url(../../assets/images/mongodb.png);
+}
+//.shopify-wrap:hover .mongodb-bg-wrap{
+//  background-image: url(../../assets/images/mongodb-white.png);
+//}
+
+.technology-third-col h2 span{
+  color:$gb-color-red;
+}
+.technology-third-col p{
+  font-size: 16px;
+  text-align: justify;
+  color:$gb-color-grey;
+}
+
+.technology-btn-wrap .technology-btn {
+  height: 60px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 4px;
+  color: $gb-color-white;
+  position: relative;
+  z-index: 1;
+  background-color: $gb-color-red;
+  margin-top:20px;
+}
+.technology-btn-wrap .technology-btn:hover {
+  color:$gb-color-white;
+}
+.technology-btn-wrap .technology-btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color: $gb-color-black;
+  color:$gb-color-red !important;
+  content: "";
+}
+.technology-btn-wrap .technology-btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+/* Technology-Competence-sec css start here */
+.Technology-Competence-sec{
+  background-color:$gb-color-white-light;
+}
+.Technology-Competenc-heading h2{
+  color:$gb-color-black;
+  font-weight: 800;
+}
+.Technology-Competenc-heading h2 span{
+  color:$gb-color-red;
+}
+
+.Technology-Competenc-heading p{
+  color:$gb-color-grey;
+  font-size: 16px;
+  margin: 20px 0;
+}
+//.Technology-Competence-common-col:hover{
+//  border-bottom: 4px solid $gb-color-red;
+//  transform: scale(1.1);
+//}
+.Technology-Competence-common-col .Technology-Competence-common-img{
+  width: 82%;
+  height: auto;
+}
+/* Technology-Competence-sec css end here */
+
+/* services-old-service-old-sec start here */
+.web-dev-service-heading h2{
+  color:$gb-color-black;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.web-dev-service-heading h2 span{
+  color:$gb-color-red;
+}
+.web-dev-service-common-col .web-dev-service-common-img{
+  width:50px;
+  margin-bottom: 10px;
+}
+
+.web-development-service-sec .card{
+  position: relative;
+  cursor: pointer;
+}
+
+.web-development-service-sec .card .face{
+  width:100%;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.web-development-service-sec .card .face.face1{
+  position: relative;
+  background: $gb-color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.web-development-service-sec .card:hover .face.face1{
+  background: $gb-color-red;
+  transform: translateY(0);
+}
+
+.web-development-service-sec .card:hover .face.face1 h3{
+  color: $gb-color-white !important;
+}
+
+.web-development-service-sec .card .face.face1 .content{
+  transition: 0.5s;
+}
+
+.web-development-service-sec .card:hover .face.face1 .content{
+  opacity: 1;
+  position: relative;
+}
+
+.web-development-service-sec .card .face.face1 .content img{
+  max-width: 100px;
+}
+.api-bg-img{
+  background-image: url(../../assets/images/api.png);
+  background-repeat: no-repeat;
+  background-position: 47% 10%;
+  background-size: contain;
+  padding:20px;
+  z-index: 9;
+}
+.web-dev-service-common-col .card:hover .api-bg-img{
+  background-image: url(../../assets/images/api-white-icon.png);
+}
+.upgradation-bg-img{
+  background-image: url(../../assets/images/upgration.png);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: contain;
+  padding:20px;
+  z-index: 9;
+}
+.web-dev-service-common-col .card:hover .upgradation-bg-img{
+  background-image: url(../../assets/images/upgrade-white-icon.png);
+}
+
+.bugs-bg-img{
+  background-image: url(../../assets/images/bug.png);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: contain;
+  padding:20px;
+  z-index: 9;
+}
+.web-dev-service-common-col .card:hover .bugs-bg-img{
+  background-image: url(../../assets/images/bug-white-icon.png);
+}
+.web-development-service-sec .card .face.face1 .content h3{
+  margin: 10px 0 0;
+  padding: 0;
+  color: $gb-color-black;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.web-development-service-sec .card .face.face2{
+  position: relative;
+  background: $gb-color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 80%);
+  transform: translateY(-100px);
+}
+
+.web-development-service-sec .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.web-development-service-sec .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.web-dev-service-common-col .card {
+  border:1px solid transparent;
+
+}
+.web-dev-service-common-col{
+  text-align: center;
+}
+/* services-old-service-old-sec  end here*/
+
+/*dynamic-services-old-sec css start here*/
+.dynamic-web-development-sec{
+  background-color: $gb-color-white-light;
+}
+.dynamic-first-col h2{
+  font-weight: 800;
+  color:$gb-color-black;
+}
+.dynamic-first-col h2 span{
+  color:$gb-color-red;
+}
+.dynamic-first-col p{
+  font-size: 16px;
+  color:$gb-color-grey;
+  text-align: justify;
+  line-height: 35px;
+  margin-top: 20px;
+}
+.dynamic-group-img {
+  width: 100%;
+}
+.dynamic-second-col{
+  position:relative;
+}
+.dynamic-first-col .dynamic-btn {
+  height: 60px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 4px;
+  color: $gb-color-white;
+  position: relative;
+  z-index: 1;
+  margin-top:30px;
+  background-color: $gb-color-red;
+}
+.dynamic-first-col .dynamic-btn:hover {
+  color:$gb-color-white;
+}
+.dynamic-first-col .dynamic-btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color: $gb-color-black;
+  color:$gb-color-white !important;
+  content: "";
+}
+.dynamic-first-col .dynamic-btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+/*dynamic-services-old-sec css end here*/
+
+/* slich slider our service-old  css start here*/
+.hexagonal-slider {
+  padding: 20px 0;
+  display: none;
+}
+.common{
+  width:100%;
+}
+.back-btn{
+  position:absolute;
+  left:45%;
+  border:none;
+  outline:none;
+  background-color: transparent;
+  margin-top:20px;
+}
+.next-btn{
+  position:absolute;
+  background-color: transparent;
+  right:45%;
+  border:none;
+  outline:none;
+  margin-top:20px;
+}
+.next-btn:focus{
+  outline:none;
+  border:none;
+}
+.back-btn:focus{
+  outline:none;
+  border:none;
+}
+.our-work-heading h2{
+  margin-bottom: 60px;
+}
+.our-work-slider .slick-track {
+  margin-bottom: 70px;
+}
+.our-work-slider .slick-slide.slick-active.slick-center.slick-current {
+  background-color: rgba(242, 20, 20, 0.228);
+  color: $gb-color-white !important;
+  padding: 20px;
+  width: 450px !important;
+  width: 473px !important;
+    margin: 0;
+    position: relative;
+    bottom: 60px;
+    transform: scale(1.1) !important;
+    margin: 0 20px;
+}
+.our-work-slider .slick-slide {
+  background-color:$gb-color-white;
+  padding: 20px;
+  height: 20vh;
+  min-height: 340px !important;
+  box-shadow: 0 2px 10px #8989895c;
+  margin: 0px 10px;
+}
+.our-work-slider .test {
+  min-height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.our-work-slider .slick-slide.slick-active.slick-current {
+  background-color:$gb-color-red;
+    color: white;
+}
+
+.graphic-design-col-second-common .slich-slider-sec{
+  position:relative;
+}
+.hexagonal-slider .slich-pos .slider .slick-slider .graphic-prev-btn {
+  right: calc(45%);
+}
+.hexagonal-slider .slich-pos .slider .slick-slider .graphic-next-btn {
+  right: calc(38%);
+}
+.hexagonal-slider .slich-pos .slider .slick-slider .common-graphic-next-prev-btn {
+  bottom: -20px;
+}
+/* slich slider our service-old  css start here*/
+
+.hire-us-text-wrapper {
+  p {
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: $gb-color-black;
+    span {
+      color: $gb-color-red;
+    }
+  }
+}
+.hire-us-links-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    img {
+      max-width: 100%;
+      width: 145px;
+    }
+    .up-work {
+      width: 130px;
+      margin-right: 35px;
+    }
+  }
+}
+
+.web-development-technology-sec.graphic-design-technology-sec .technology-second-col, .web-development-technology-sec.digital-marketing-services-sec .technology-second-col {
+  right: inherit;
+}
+
+/* web development css end start here */
+@media screen and (max-width:1700px){
+  .technology-first-col-wd {
+    width: 11%;
+  }
+
+  .web-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 60px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 190px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 320px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 180px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 310px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 439px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .technology-first-col-wd {
+    width: 13%;
+  }
+
+  .web-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 180px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 310px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 440px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 325px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 455px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 586px;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .web-development-company-sec .web-development-second-col {
+    padding: 30px 40px;
+  }
+  .web-development-content-sec {
+    padding: 35px;
+  }
+  .web-development-technology-sec {
+    padding: 0;
+  }
+  .technology-first-col-wd {
+    top: inherit;
+    right: 0;
+    width: 16%;
+    bottom: 107px;
+  }
+  .web-development-technology-sec .technology-second-col {
+    position: relative;
+    right: 85px;
+    height: 480px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .social-common-wrap-border {
+    top: -54px;
+    left: 34px;
+  }
+  .social-common {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: $gb-color-red;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding: 20px;
+    transition: all 1s;
+    border: 7px solid $gb-color-white;
+  }
+  .massanger-wrap p {
+    font-size: 14px;
+  }
+  .technology-third-col h2 {
+    text-align: center;
+  }
+  .technology-third-col h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 300px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 430px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 560px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 305px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 435px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 565px;
+  }
+  .technology-third-col {
+    p {
+      text-align: center;
+    }
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .tab-button-wrapper .nav-pills .nav-link {
+    background-color: $gb-color-white-light;
+    padding: 0 4px;
+  }
+  .Technology-Competence-common-col .Technology-Competence-common-img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+  }
+  .web-development-service-sec .card .face.face1 .content h3 {
+    font-size: 20px;
+  }
+
+  .web-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 300px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 430px;
+  }
+  .web-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 560px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .magento-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .woo-wrap {
+    left: 305px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wordpress-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .drupal-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .wix-wrap {
+    left: 435px;
+  }
+  .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .shopify-wrap, .web-development-technology-sec.mob-development-technology-sec .hexagon-wrapper .bigcommcer-wrap {
+    left: 565px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .web-development-company-sec .web-development-second-col {
+    margin-top: 25px;
+    padding: 30px 40px;
+  }
+  .web-develop-first-col-btn .web-develop-port-folio-btn {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .form-btn .mobile-app-service-form-btn {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-top:20px;
+  }
+  .web-development-content-sec {
+    padding: 20px;
+  }
+  .technology-third-col {
+    padding: 0 0;
+  }
+  .technology-btn-wrap .technology-btn {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .web-development-technology-sec .technology-second-col {
+    display: none;
+  }
+  .web-development-technology-sec.graphic-design-technology-sec .technology-second-col, .web-development-technology-sec.digital-marketing-services-sec .technology-second-col {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 0;
+  }
+  .web-development-technology-sec.digital-marketing-services-sec .technology-second-col img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .technology-first-col-wd {
+    display: none;
+  }
+  .hexagonal-slider {
+    display: block !important;
+  }
+  .web-development-technology-sec {
+    padding: inherit;
+  }
+  .web-development-second-col p{
+    font-size: 14px;
+  }
+  .web-development-tech-heading p,.technology-third-col p,.Technology-Competenc-heading p,.dynamic-first-col p {
+    font-size: 14px;
+    line-height: 189%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .social-common {
+    width: 60px;
+    height: 60px;
+    padding: 13px;
+    top: 5px;
+    left: 5px;
+    border: 4px solid $gb-color-white;
+  }
+  .social-common-wrap-border {
+    width: 70px;
+    height: 70px;
+    top: -37px;
+    left: 85px;
+    transition: all 1s;
+  }
+  .massanger-wrap {
+    width: 100%;
+  }
+  .next-btn {
+    right: 40% !important;
+  }
+  .back-btn {
+    left: 40% !important;
+  }
+  .hexagonal_shape .hexa-box:hover{
+    transform: rotate(0) scale(1);
+    background-color: transparent;
+  }
+  .hexagonal_shape .hexa-box {
+    border: none;
+  }
+  .hexagonal_shape .hexa-box:after, .hexagonal_shape .hexa-box:before {
+    content: none;
+  }
+  .wordpress-wrap:hover .wordpress-bg-wrap {
+    background-image: url(../../assets/images/wordpress-wd.png);
+  }
+  .drupal-wrap:hover .drupal-bg-wrap {
+    background-image: url(../../assets/images/drupal.png);
+  }
+  .wix-wrap:hover .wix-bg-wrap {
+    background-image: url(../../assets/images/wix.png);
+  }
+  .bigcommcer-wrap:hover .big-commerce-bg-wrap{
+    background-image: url(../../assets/images/big-commerce.png);
+  }
+  .magento-wrap:hover .magento-bg-wrap{
+    background-image: url(../../assets/images/magento.png);
+  }
+  .woo-wrap:hover .woo-bg-wrap{
+    background-image: url(../../assets/images/woo-logo.png);
+  }
+  .common-bg-icon {
+    padding: 28px;
+  }
+  .web-development-form-common .web-develop-from-contral {
+    margin-top: 10px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+  .web-development-content-sec {
+    padding: 25px 0 0;
+  }
+  .web-development-tech-heading p {
+    margin-bottom: 0;
+  }
+  .technology-third-col {
+    padding: 25px 0;
+  }
+  .technology-btn-wrap {
+    text-align: center;
+  }
+  .web-development-tech-heading h2, .technology-third-col h2, .Technology-Competenc-heading h2, .web-dev-service-heading h2, .dynamic-first-col h2 {
+    text-align: center;
+  }
+  .Technology-Competence-common-col:hover {
+    border-bottom: 1px solid #ddd;
+    transform: scale(1);
+  }
+
+  .web-development-service-sec .card .face.face1 {
+    background: $gb-color-red;
+    transform: translateY(0);
+  }
+  .web-development-service-sec .card .face.face2 {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgb(217, 217, 217, 0.8);
+  }
+  .web-development-service-sec .card:hover .face.face2{
+    transform: translateY(0);
+  }
+  .web-dev-service-common-col .card .bugs-bg-img{
+    background-image: url(../../assets/images/bug-white-icon.png);
+  }
+  .web-dev-service-common-col .card .upgradation-bg-img{
+    background-image: url(../../assets/images/upgrade-white-icon.png);
+  }
+  .web-dev-service-common-col .card .upgradation-bg-img{
+    background-image: url(../../assets/images/upgrade-white-icon.png);
+  }
+  .web-dev-service-common-col .card .api-bg-img{
+    background-image: url(../../assets/images/api-white-icon.png);
+  }
+  .web-development-service-sec .card .face.face1 .content h3 {
+    color: $gb-color-white;
+  }
+  .web-development-service-sec .card .face.face2 .content p {
+    font-size: 16px;
+    color: $gb-color-grey;
+    line-height: 22px;
+  }
+  .web-development-service-sec .card .face {
+    height: auto;
+    min-height: 110px;
+  }
+  .web-development-service-sec .card {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  .dynamic-web-development-sec .dynamic-first-col {
+    text-align: center;
+  }
+  .lets-chet-row {
+    margin-top: 55px;
+  }
+  .lets-chet-sec .let-chat-heading h3 {
+    font-size: 24px;
+  }
+  .massanger-wrap:hover {
+    transform: scale(1);
+  }
+  .massanger-wrap:hover .social-common-wrap-border {
+    transform: scale(1);
+  }
+  .massanger-wrap:hover .social-common {
+    transform: none;
+  }
+  .let-common-social-img {
+    width: 60%;
+  }
+  .massanger-wrap:hover .lets-go-common-desc {
+    margin-top: 0;
+  }
+  .hexagonal-slider .slich-pos {
+    display: block;
+    background-color: transparent;
+  }
+  .hexagonal-slider {
+    margin: -25px 0 30px;
+  }
+  .technology-third-col {
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .hire-us-text-wrapper p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .hire-us-links-wrapper {
+    a {
+      .up-work {
+        width: 95px;
+      }
+      img {
+        width: 110px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px){
+  .web-develop-first-col-btn .web-develop-port-folio-btn {
+    height: 42px;
+    width: 130px;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .web-development-company-sec .web-development-second-col {
+    margin-top: 25px;
+    padding: 25px 20px;
+  }
+  .form-btn .mobile-app-service-form-btn {
+    height: 45px;
+    font-size: 15px;
+  }
+  .web-development-content-sec {
+    padding: 30px 0;
+  }
+  .web-development-first-col p,.web-development-tech-heading p, .technology-third-col p, .Technology-Competenc-heading p, .dynamic-first-col p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .web-development-technology-sec {
+    padding: 0 0 20px 0;
+  }
+  .technology-btn-wrap .technology-btn {
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .dynamic-first-col p {
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .social-common-wrap-border {
+    left: 32px;
+  }
+  .next-btn {
+    right: 35% !important;
+  }
+  .back-btn {
+    left: 35% !important;
+  }
+  .social-common {
+    position:absolute;
+    top:3px;
+    left:3px;
+    background-color: $gb-color-red;
+    width:45px;
+    height:45px;
+    border-radius: 100%;
+    padding: 0;
+    transition: all 1s;
+    border: none;
+  }
+  .social-common-wrap-border {
+    width: 50px;
+    height:50px;
+    position: relative;
+    border-radius: 100%;
+    background-color:$gb-color-red;
+    top: -35px;
+    left:0;
+    transition: all 1s;
+
+  }
+  .massanger-wrap p {
+    word-break: break-all;
+    font-size: 14px;
+  }
+  .massanger-bottom {
+    margin-top: 20px;
+  }
+  .lets-chet-row {
+    margin-top: 20px;
+  }
+  .dynamic-first-col .dynamic-btn {
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .technology-third-col h2 {
+    margin-bottom: 10px;
+  }
+  .Technology-Competenc-heading p {
+    margin: 10px 0;
+  }
+  .Technology-Competence-sec .Technology-Competence-common-col {
+    margin-top: 10px;
+    height: 100px;
+  }
+  .technology-third-col {
+    padding: 20px 0;
+  }
+  .web-development-service-sec .card .face.face1 .content h3 {
+    font-size: 16px;
+  }
+  .web-development-service-sec .card .face.face1 .content div {
+    padding: 16px;
+  }
+  .web-development-service-sec .card .face.face2 .content p{
+    font-size: 15px;
+  }
+}

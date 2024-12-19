@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Klavika Bd';
+    src: url('../fonts/Klavika-Bold.eot');
+    src: url('../fonts/Klavika-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Klavika-Bold.woff2') format('woff2'),
+    url('../fonts/Klavika-Bold.woff') format('woff'),
+    url('../fonts/Klavika-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Klavika Lt';
+    src: url('../fonts/Klavika-Light.eot');
+    src: url('../fonts/Klavika-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Klavika-Light.woff2') format('woff2'),
+    url('../fonts/Klavika-Light.woff') format('woff'),
+    url('../fonts/Klavika-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Klavika Md';
+    src: url('../fonts/Klavika-Medium.eot');
+    src: url('../fonts/Klavika-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Klavika-Medium.woff2') format('woff2'),
+    url('../fonts/Klavika-Medium.woff') format('woff'),
+    url('../fonts/Klavika-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Elt';
+    src: url('../fonts/JosefinSans-Thin.eot');
+    src: url('../fonts/JosefinSans-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JosefinSans-Thin.woff2') format('woff2'),
+    url('../fonts/JosefinSans-Thin.woff') format('woff'),
+    url('../fonts/JosefinSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Md';
+    src: url('../fonts/JosefinSans-SemiBold.eot');
+    src: url('../fonts/JosefinSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JosefinSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/JosefinSans-SemiBold.woff') format('woff'),
+    url('../fonts/JosefinSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-Regular.eot');
+    src: url('../fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JosefinSans-Regular.woff2') format('woff2'),
+    url('../fonts/JosefinSans-Regular.woff') format('woff'),
+    url('../fonts/JosefinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Lt';
+    src: url('../fonts/JosefinSans-Light.eot');
+    src: url('../fonts/JosefinSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JosefinSans-Light.woff2') format('woff2'),
+    url('../fonts/JosefinSans-Light.woff') format('woff'),
+    url('../fonts/JosefinSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Bd';
+    src: url('../fonts/JosefinSans-Bold.eot');
+    src: url('../fonts/JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JosefinSans-Bold.woff2') format('woff2'),
+    url('../fonts/JosefinSans-Bold.woff') format('woff'),
+    url('../fonts/JosefinSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-thin';
+    src: url('../fonts/Roboto-Thin.eot');
+    src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff'),
+    url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-lt';
+    src: url('../fonts/Roboto-Light.eot');
+    src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff'),
+    url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-rg';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-md';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-bd';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-ebd';
+    src: url('../fonts/Roboto-Black.eot');
+    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff'),
+    url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
